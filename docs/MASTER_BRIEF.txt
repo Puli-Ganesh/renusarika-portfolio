@@ -1,0 +1,738 @@
+RENU SARIKA | CINEMATIC 3D AI/ML PORTFOLIO
+THE COMPLETE EXECUTION PROMPT FOR CHATGPT WORK
+Version 1.0 | 12 November 2026 | Priority: fully running, buildable, deployable ZIP
+
+IMPORTANT ABOUT SCOPE
+This text is an implementation contract for an autonomous coding workspace. It is designed to be actionable, testable, and sufficiently specific to create a fully working portfolio, not a generic list of design ideas. The user may supply this prompt along with a recent resume PDF, approximately twelve short visual reference videos, and three consented portrait photographs of the portfolio owner. Work directly on those assets. If all three portraits are supplied, use all three purposefully. The priority is an original, cinematic, responsive, high-performance portfolio for a student, not a copy of any reference agency's branding. Read the entire instruction set before implementing, then execute it. Do not merely describe how you would build the project. Create code, install dependencies, run validation, fix errors, and deliver the actual source ZIP.
+
+YOUR ROLE
+Act simultaneously as a senior creative director, interaction designer, technical artist, Three.js engineer, Vue 3/TypeScript engineer, GSAP animator, accessibility engineer, performance engineer, build engineer, QA lead, editorial reviewer, and project owner. Produce a functioning, beautifully considered, sophisticated portfolio with top-tier interaction design. Every major visual flourish must reveal something about the owner's authentic interests in AI/ML, reinforcement learning, and GPU training. Think like a digital studio preparing its signature award-submission experience, but build like a responsible software team. Preserve clarity, truthfulness, maintainability, accessibility, responsiveness, and Vercel deployment integrity.
+
+DELIVERABLES: NON-NEGOTIABLE
+1. One final ZIP, named Rachamalli_Renusarika_3D_Portfolio_Vercel_Ready.zip, containing a COMPLETE, installable, runnable Vite/Vue/Three.js project. The ZIP must not be an empty scaffold, screenshot, Figma link, static mockup, or pile of placeholder files. The ZIP should expand to a sane root folder containing package.json, source, configuration, public assets, documentation, and tests; remove node_modules, .git, secrets, and bulky temp outputs. Build assets may be included when appropriate but source is required.
+2. The production website must run by executing npm install and npm run dev, and build with npm run build using a mainstream supported Node LTS version. Verify commands in the actual environment available to you. Supply a tested build as far as the environment allows.
+3. Preserve the three user-uploaded portraits within the final project in optimized web-ready versions with a clear source-credit/asset note. If privacy/consent or licensing prevents transformation, use them unaltered and document limits; do not download unrelated people's photos or use an AI-generated substitute.
+4. Include the user's latest resume PDF in public/resume/ with a working Download Resume button; copy the real source, do not invent or rewrite qualifications. If the user does not attach the PDF in this Work session, add a clearly documented expected filename and make the button gracefully disabled or route to an explicit asset-needed state; never create an unrelated fake PDF.
+5. Provide README.md with Windows PowerShell and cross-platform installation/development commands, architecture, assets guide, and step-by-step Vercel deployment instructions. Include a CONTENT_REVIEW.md, VISUAL_QA.md, PERFORMANCE_NOTES.md, and REFERENCES.md.
+6. Include all required config files (package.json and lockfile if installed; vite.config.ts, tsconfig files as appropriate, vercel.json only if routing requires it, index.html, lint/config files) and real working components. No missing imports, missing shader files, nonexistent remote assets, null event targets, or dead CTAs.
+7. Include an optional desktop preview screenshot and mobile preview screenshot if image capture is available; these do NOT replace the ZIP.
+8. At the end, report exactly what was delivered, which commands ran and passed or failed, which images and source resume were included, and anything requiring genuine user clarification (e.g. unknown GitHub/LinkedIn URL). Do not present an untested build as tested.
+
+NON-NEGOTIABLE DESIGN OUTCOME
+Create a one-of-a-kind editorial 3D portfolio experience that feels like a living AI research studio. It should communicate that Renusarika is a promising computer science student with real project and internship exposure, not a veteran employee, a fictional genius scientist, an NFT designer, a generic service agency, or an AI-company recruiter. The experience must be cinematic and arresting but not confusing. A recruiter viewing for 20 seconds should be able to locate her name, academic status, skills, projects, resume, and contact. A creative developer viewing for 2 minutes should discover real geometry, thoughtful transitions, a camera-driven scroll narrative, and refined hover/touch feedback. A user on an older phone or with reduced-motion preference must still experience a polished, complete portfolio.
+
+PRIMARY CREATIVE THESIS
+Title: 'Systems in Motion.' Subtitle: 'From intelligent decisions to efficient computation.' A second lyrical motif can be 'An idea is a system waiting to move.' The concept represents an evolving mind through nodes, data ribbons, layered compute components, and dynamic scheduling paths. Instead of space planets, random flying cubes, synthetic HUD overload, or meaningless AI imagery, make the 3D objects semantically connected to the content. Use the user's three portrait photos as human anchors, contrasted with precise computational geometry. This site should feel premium and personal: elegant camera choreography, striking editorial typography, disciplined colors, carefully timed reveals, and an unmistakable research-driven narrative.
+
+COPYRIGHT AND ORIGINALITY RULE
+Study the public references to understand production quality, not to extract logos, model files, exact layout code, art, licensed assets, typography assets, or brand identity. WLT Design remains WLT Design; the delivered Renusarika site must have original layout, palette, 3D geometry, composition, copy, and interaction implementation. Do not reproduce a reference template pixel for pixel. Do not hotlink WLT image URLs. Avoid branded icons or logos whose licensing is unclear. Prefer procedural 3D objects made with Three.js primitives, custom shapes, instancing, and lightweight shaders you authored.
+
+1. SOURCE-OF-TRUTH PRIORITY AND INPUT HANDLING
+Read the attached, most recent resume and establish it as the authoritative source of academic and professional details. Read each attached video as a visual inspiration source, not as evidence of qualifications or code. Inspect all three attached portraits and label them PHOTO_A, PHOTO_B, PHOTO_C in upload order; you may thoughtfully reinterpret use based on composition (best for hero, best for about, best for closing). If an image is missing, do not invent an actual portrait. Content order of truth: latest user-supplied resume > explicit user clarifications in chat > clearly labeled creative editorial copy > generic placeholder content. Never invent employers, awards, certificates, degree completion, exact internship dates, employment status, publications, grades, repository URLs, social links, screenshots of real project results, quantified performance gains, salary, location of current residence, or research-paper claims.
+
+If the source resume conflicts with an older conversation, follow the most recent resume and document the discrepancy rather than quietly merging histories. The student is CURRENTLY STUDYING and is expected to graduate in 2027. All copy and CV metadata must preserve this. Do not present a completed 2027 degree before graduation. Her education is in Computer Science and Engineering (CIC), specialization IoT, Cyber Security including Blockchain Technology. Avoid implying she has a Master's or doctorate. A three.js site can be creative without overstating career credentials.
+
+2. AUTHENTIC RESUME PROFILE: EXACT CONTENT YOU MUST RESPECT
+Full name: RACHAMALLI RENUSARIKA.
+Display name: Rachamalli Renusarika. Visual headline may use 'RENUSARIKA' as a typographic wordmark, but the full legal/resume name must appear prominently and in semantic page metadata.
+Email: renusarikarachamalli@gmail.com.
+Phone: +91 74165 97644. Provide a clickable tel: link with appropriate normalized international form. Never expose hidden private details, addresses, birthdates, or account IDs.
+Education: Bachelor of Technology (B.Tech) in Computer Science and Engineering (CIC); specialization IoT, Cyber Security including Blockchain Technology; Annamacharya Institute of Technology and Sciences, Tirupati; 2023–2027 (expected); CGPA 8.88/10.
+Professional identity: B.Tech student exploring AI/ML, reinforcement learning, model training, computational efficiency, and software systems.
+Programming: Python, Java, C, SQL, JavaScript.
+Python/ML: NumPy, pandas, PyTorch, scikit-learn, data preprocessing, model evaluation, reinforcement learning.
+ML Systems/GPU: mini-batch training, model checkpoints, GPU profiling.
+Java/Backend: object-oriented programming, JDBC, REST APIs, CRUD operations.
+Databases/tools: MySQL, Git/GitHub, VS Code, Jupyter Notebook, Postman.
+Salesforce: CRM fundamentals, validation rules, flows, reports, Apex/SOQL basics.
+Experience A: 'Salesforce Administrator & Developer Intern | Salesforce CRM training — 6 months | Semester 3-2'. Because the resume does not name a distinct employer for this experience, do not invent Salesforce Inc. as the hiring company. You may display 'Salesforce CRM Training / Administrator & Developer Internship' with the duration and context. The content is exposure to CRM data management, custom objects, field relationships, validation rules, workflow automation, Salesforce Flow, basic Apex/SOQL, reports, dashboards, and scenario testing.
+Experience B: 'AI & Machine Learning Intern | CHV Apps'. Exposure to Python data preparation, ML experiments, basic model development, dataset preprocessing, model testing/evaluation with NumPy, pandas, Jupyter. Do not invent tenure, team, official projects, or organizational endorsements.
+Selected Project 1: 'Reinforcement Learning for Intelligent Task Scheduling' | Python, PyTorch, Gymnasium. Resume claims a reinforcement learning environment using PPO to optimize task scheduling based on resource availability, workload, and execution priority, and evaluation against traditional scheduling approaches using completion time, utilization, and throughput. Do not invent numeric achievements. If you implement a site-only illustrative scheduling demo, label its values 'interactive illustration, not validated benchmark results'.
+Selected Project 2: 'GPU-Optimized Deep Learning Training Pipeline' | Python, PyTorch, CUDA, NumPy. Resume claims preprocessing, mini-batch training, checkpointing, performance monitoring, and analysis of GPU memory use, speed, and bottlenecks to improve efficiency/scalability. Do not fabricate GPU vendor/device names, datasets, measured percentages, training curves, or lab outcomes.
+Professional summary sense: thoughtful, hands-on, technically curious, rigorous, still building. Avoid pretending she built deployed enterprise systems or won awards if absent.
+Exact academic status tagline choices: 'Computer Science (CIC) Undergraduate · Class of 2027', 'AI/ML & Reinforcement Learning Explorer', 'Building Intelligent Systems, One Experiment at a Time'. These are editorial choices, not false credentials.
+
+3. REFERENCES: WLT DESIGN AND VISUAL VIDEOS
+Review https://wlt.design/ as the principal quality and cinematic-structure benchmark. The publicly available 2026 homepage opens with warm light and a dimensional scene, moves through a furnished 3D environment and staged objects, and closes with a clear contact invitation. A specialist WebGL gallery describes Three.js, GSAP, and Lenis as part of the site's technology. What to borrow: sense of physical space, camera continuity, chapter-based scroll motion, intentional object staging, contrast between simple readable copy and rich animated scenes, a meaningful loader, tight transition timing, and a proper finale. What NOT to borrow: literal bright-orange palette, WLT branding, room, 3D assets, product displays, words, exact lighting, marketing copy, logo, or geometric arrangements.
+Additional reference for WLT's earlier, different visual direction: https://2022.wlt.design/ . This archived site has a 'Scroll To Interact' entry and a space-themed storytelling motif; do not confuse it with the present main site. The two versions are separate references.
+Quality references: https://mesh3d.gallery/website/wlt-design-web-design-studio and https://www.cssdesignawards.com/sites/wlt-design/45101/ . Use them to understand interaction ambition and public descriptions, not to claim you inspected source files or know the exact current implementation beyond the documented evidence.
+
+THE TWELVE VIDEO INSPIRATION NOTES (derived from supplied video frames; source clips are social demonstrations/tutorials, not guaranteed live production websites):
+A. Sep 18, 14.02.11: creator talking about Framer Motion / prompt workflows and motion-focused web experiences. Translate to graceful entrance sequencing, polished choreography, and componentized transitions; do not copy a tutorial or claim that this reel establishes a specific production stack.
+B. Sep 18, 14.02.12: photoreal racing-car exploded parts view, components separating in a clean layout, plus demonstration of AI-driven assembly techniques. Translate to layered 'GPU Training Pipeline' and model-compute exploded view, but do not include the F1 car or car media.
+C. Sep 18, 14.02.13: heritage/architecture-inspired photographic site and tutorial showing a large environment image used as a cinematic page foundation. Translate to high-quality scene composition and a visually coherent transition between photographic and procedural visual storytelling; do not use a temple as content for her academic site.
+D. Sep 24, 12.05.48: four-slot OTP interface animation in which digits or elements move/reorder and culminate in a green success state. Translate to crisp state-based microinteraction and completion feedback, perhaps in a step-by-step model pipeline or 'message sent' interface, not to a pointless OTP form on a portfolio.
+E. Sep 24, 12.06.00: bold food landing page with an exploded-stack burger and vivid scroll-reveal product compositions. Translate to the idea of separated computational layers, coherent parallax depths, and scroll-controlled assembly/disassembly. No burger/food imagery should appear on the portfolio.
+F. Sep 24, 12.06.01: cinematic 3D interiors where viewport shifts between rooms, furniture, decorative details, and text, evoking an actual environment walkthrough. Translate to a spatial 'intelligent systems lab' with a controlled virtual camera; keep it lean and mobile-safe.
+G. Sep 24, '-f24' 12.06.01: engineering/industry website montage with cranes, construction equipment, bridge, container ship, and aircraft sweeping through sections. Translate to grounded motion sequencing, scale changes, masked video/image-like transitions, and distinct project chapters; do not add irrelevant construction objects.
+H. Oct 16, 1.29.33: illustrated woman on a saturated red/orange page, head and eyes apparently reacting to cursor movement. Translate to subtle, bounded cursor-following parallax on a REAL uploaded photo or adjacent designed graphic; never deform the person's face or imply animation of actual eyes unless consent and a reliable method exist.
+I. Oct 16, 1.29.34: roundup of portfolio layouts progressing toward an immersive 3D environment with an interactive desk and floating elements. Translate to a credible AI lab workstation scene and carefully chosen contextual tech artifacts.
+J. Oct 16, 1.29.35: dark editorial developer portfolio with gold/yellow condensed headlines, confident large typography, full-body imagery, and detailed project panels. Translate to hierarchy, restrained premium visual contrast, sticky narratives, cinematic projects, and compelling composition rather than template copying.
+K. Oct 16, 1.29.36: montage of cinematic 3D creative portfolio visuals, orbiting boards, abstract space, high-contrast glowing scenes, and dynamic chapter transitions. Translate to smooth camera rails, deliberate depth, focus control, volumetric suggestion without expensive volumetric rendering, and intentional pacing.
+L. Oct 16, 1.2hh9.36: 'hover to reveal' creative portfolio with woman's portrait and a blue graphic/object appearing near/behind her. Translate to a hover/touch-triggered procedural network bloom and image-masked reveals that work equally for keyboard/touch.
+
+Do not assume the reference videos' reported techniques, libraries, or generated imagery are licensed for inclusion in the final portfolio. Infer design behavior from what is visible; implement your own.
+
+4. RECOMMENDED TECHNOLOGY AND WHY
+Use Vue 3 + Vite + TypeScript for the semantic UI architecture and component lifecycle. Use Three.js for authored WebGL scenes. These are complementary, not competing frameworks: Vue organizes the page; Three.js renders 3D. Use GSAP + ScrollTrigger for timeline control and content choreography, and Lenis for measured smooth scrolling. Source the current stable compatible package versions at implementation time, pin dependency ranges sensibly, and verify the actual install; do not blindly assume a version from the date of this prompt. Prefer direct Three.js integration in a well-encapsulated scene manager and Vue components, rather than layering multiple competing 3D wrappers, animation libraries, or smooth-scrolling controllers. Vue and TypeScript are the core; avoid introducing React just for 3D.
+Primary stack: vue, three, gsap, lenis, vite, typescript. Useful optional add-ons only if justified: @vueuse/core for robust utility composables; lucide-vue-next for simple accessible icons; lightweight SVG icon assets; Playwright for end-to-end smoke checks; Vitest for pure logic tests; ESLint for quality. Avoid adding UI component libraries that make the site look generic. Avoid animation duplication across libraries, Tailwind classes pasted without a design system, and heavyweight 3D asset dependencies for effects you can code with primitives.
+Vercel hosting: static SPA output. The correct build script should generate dist. Configure Vercel framework Vite or let it detect. Vercel deep-link rewrites are required only if client-side routes are used; a single-page anchored portfolio can avoid the complexity. Do not introduce a backend, database, authentication, payment flow, email API, or contact-form service unless explicitly required and responsibly configured. The most reliable contact action is a mailto: link, with polished feedback and optional copied-address button that actually copies.
+Use physically reasonable lighting and plausible materials, but optimize. Prefer native Three.js math, BufferGeometry, InstancedMesh for many particles, simple transparent materials, mild glow created via restrained postprocessing only where profitable. If bloom adds too much cost, replace with layered emissive geometry and CSS glow. Use requestAnimationFrame or GSAP ticker as one coordinated timing source with clean lifecycle management. Avoid unnecessary GPU readbacks and per-frame Vue reactivity.
+
+5. THE ART DIRECTION / MINI DESIGN SYSTEM
+Brand mood: nocturnal research studio, editorial minimalism, glass-and-metal precision, restrained personality, soft intelligence. Reference sophistication without reproducing WLT's orange world. Suggested palette:
+--ink: #070B15; --deep: #0B1120; --surface: #111A2A; --paper: #F2F4F7; --muted: #98A5B9; --violet: #938BFA; --aqua: #69D9D0; --warm: #F5B97A; --stroke: rgba(230,238,252,.14).
+Use the violet+aqua pair as focal motion colors. Warm amber is a 5–10% accent, not a dominant orange copy of WLT. Black and paper contrast provide reading hierarchy. Optional off-white interlude can separate intellectual chapters, but transitions must feel authored, not random.
+Typography: Pair a high-impact grotesk display face with a calm, legible body face. Example families with appropriate license and robust fallbacks: Space Grotesk for display; Inter, Manrope, or DM Sans for body. Do not use a dozen fonts. Support font-display swap, subset/host as licensing permits, and fallback sans-serif. Desktop typographic hero can use clamp(4.5rem, 10vw, 10rem) for a one/two-line wordmark with optical adjustment; smaller screen clamps must prevent horizontal overflow. Long project titles should wrap deliberately, not overflow or ellipsize essential words.
+Spacing: consistent scale 4/8/12/16/24/32/48/64/96/128px. Headlines breathe; use asymmetrical grid compositions and precise baselines. Large 3D surfaces should not become opaque rectangles behind text. Use real editorial whitespace. Keep buttons restrained, 44px minimum target on touch; no fake neon rounded pill overload. Hover highlights should be refined and calm.
+Chrome: thin section index ('01 / 08'), vertical or horizontal reading progress, tiny labels such as 'INTELLIGENT SYSTEMS', an accessible NAV menu, and subtle coordinate-like design annotations. Do not build fake command-line dashboards everywhere or obscure content with interface decoration. The 3D canvas remains behind or beside meaningful content and must never block links.
+Texture: subtle radial gradients, occasional noisy grain via CSS/SVG with tiny texture cost, optically controlled halos, specular glints, thin wires, and translucent layered panes. No scroll-triggered seizure/strobe, constant white flashes, overpowered bloom, giant blur filters on the whole page, or eye-fatiguing perpetual rapid rotations.
+Composition: at desktop, a full-bleed cinematic canvas, HTML overlay for labels and text, and photo-masked editorial compositions; on mobile, simplified balanced split/full-screen scenes with legible text and no forced side-scrolling. Respect safe areas, soft keyboard, notch, and responsive height changes.
+
+6. EXPERIENCE DESIGN: TIMELINE MASTER PLAN
+Build a continuous scroll-driven immersive story with 8 major chapters, about 6–9 viewport-heights on desktop if pacing feels right, not a 100-screen chore. The exact sections must be accessible by anchor navigation. Recommended order: 00 loading/intro; 01 hero; 02 human profile; 03 fields of expertise; 04 RL task scheduling; 05 GPU training pipeline; 06 internships and journey; 07 education/current learning; 08 contact finale. You can split a chapter where content density demands it. Use scroll-based camera choreography rather than independent random effects. Add a compact 'Skip cinematic intro' control when intro would delay content. Never hold the user hostage behind a loading percentage or forced 10-second animation.
+The central figure of the story is Renusarika: the scene should shift smoothly from an abstract decision space, through a lab or processor perspective, into structured project evidence, and finally return to her human portrait and contact details. Interaction must reinforce the mental model: inputs enter, decisions form, computational layers orchestrate, outputs become opportunities.
+
+7. LOADER, FIRST PAINT, AND ENTER TRANSITION
+The page must paint quickly with semantic HTML content visible, even before WebGL. Before complex 3D is ready, present a designed CSS/DOM hero poster or gradient—not a blank black screen. A lightweight optional intro can show 'SYSTEMS IN MOTION' with a slim progress track, status 'Preparing the scene', and a skip action. If an accurate loading percentage is available from actual tracked assets, use it; otherwise use an indeterminate progress track, not a fabricated 0–100 counter. Cap any mandatory loader to a short interruption and show content immediately when ready. Provide error/fallback UI when WebGL init or asset loading fails. Avoid 'screen flicker' from canvas mount. Animate the scene from gently defocused particles to formed neural links; the text and first CTA should be readable throughout.
+Entrance choreography: tiny status light fades in, header slides subtly, hero phrase clips upward, portrait and 3D sculpture align via restrained scale easing, 3D particles settle, and the scroll cue animates once. Use tasteful GSAP timings ~0.35–1.2s per element with overlaps rather than serial 10-second sequences. On reduced motion, show immediate layout with no theatrical wait.
+
+8. SCENE 01 — HERO: THE PERSON BEHIND THE SYSTEM
+First screen communicates: 'RACHAMALLI' (small descriptor), 'RENUSARIKA' (large display), 'AI / MACHINE LEARNING • COMPUTER SCIENCE UNDERGRADUATE', and 'I explore how intelligent systems make decisions, learn, and run efficiently.' Display a clear 'Explore Projects' CTA and secondary 'Download Resume'. In smaller supporting type show 'B.Tech (CIC) · Expected 2027'. Place a photo from one of three uploaded images as the authentic emotional focal point, with careful aspect preservation and cinematic crop. On desktop, composition might place typography on the left and portrait on the right; a translucent neural network ribbon/ring or spherical signal arrangement arcs around but never covers her eyes/face. On small screens, the portrait may lead or follow the headline depending on best crop.
+Hero 3D geometry: a network of nodes organized into an elegant asymmetrical form, with connections resembling active data routes. Start with low opacity until first user interaction. Cursor movement creates bounded scene yaw (roughly ±5–8 degrees), node glints, and a gentle depth response. No aggressive spinning. On touch, a tiny gyroscope-like drag or direct touch movement may substitute, but static remains acceptable. Add a tasteful 3D 'signal' shape that transitions seamlessly into Section 2 when scroll advances.
+Image safety: every user photo is real. Use object-fit contain or intelligently chosen object-position; never stretch/skew a face or create hallucinated likeness. If high-quality isolated-cutout generation is NOT available, use a rectangular or organic mask over original photo, gradient integration, and real CSS layers instead of pretending to have a cutout. Keep image processing nondestructive and record asset source.
+Hero scene camera: start at camera position approximately (0, 0.2, 9), focal point slightly right of center (adapt to typography); transition by a few world units on scroll, maintain a smoothly changing target, avoid pop/jump on resume or Back navigation. These values are art direction approximations—tune through actual rendered screenshots.
+
+9. SCENE 02 — ABOUT / PERSONALITY: HUMAN INTELLIGENCE
+Transition with a flowing metallic data ribbon that slips behind the portrait and resolves into three parallel soft-glow tracks, corresponding to learning, experimentation, optimization. Stage PHOTO_B with a different meaningful crop and a milky/transparent pane behind it. The copy states clearly she is currently pursuing B.Tech and interested in building intelligent software. Avoid inflated claims, autobiographical fiction, or vague 'passionate visionary changing the world'. Provide concise, grounded paragraph copy approximately:
+'I'm Renusarika, a Computer Science (CIC) undergraduate at Annamacharya Institute of Technology and Sciences, Tirupati. I enjoy investigating how machine learning systems make decisions—and how to make the software behind them efficient, measurable, and dependable. My current work explores reinforcement-learning task scheduling and GPU-aware training workflows.'
+Use an honest label 'Currently learning', not '10+ years of experience'. Show credible academic facts: CGPA 8.88/10; expected graduation 2027; specialization. A scroll-triggered line drawing can underline academic details, with numbers counting only if real and labelled. Do not animate a deceptive '99% accuracy'.
+Add a graceful 'what drives me' motif: 3 annotations 'Curiosity → Experimentation → Systems Thinking' presented as design/interest framing, not invented job achievements. Clicking the primary annotation can smoothly jump to the related projects. Preserve keyboard behavior.
+
+10. SCENE 03 — SKILLS: INTERACTIVE INTELLIGENCE CONSTELLATION
+The motif: 'A SYSTEM IS MORE THAN ITS MODEL.' Display a sparse THREE-dimensional constellation of well-spaced labeled nodes, not a dense unreadable graph. Main categories: Programming; Python & ML; ML Systems & GPU; Java & Backend; Databases & Tools; Salesforce/CRM. Each category can open a concise text panel on hover, focus, and tap. Use actual semantic HTML buttons or links positioned over projected Three.js node coordinates only if robust; the easier/safer path is native accessible HTML list/cards while decorative 3D responds in the background. Ensure users can reach every category by keyboard and screen reader. Avoid using Canvas-only text for essential labels.
+Selected truthful skill examples: Python, Java, C, SQL, JavaScript; PyTorch, scikit-learn, NumPy, pandas; reinforcement learning, data preprocessing/model evaluation; mini-batch training, checkpoints, GPU profiling; JDBC, REST APIs, CRUD; MySQL, Git/GitHub, VS Code, Jupyter, Postman; Salesforce CRM, Flow, reports, validation rules, Apex/SOQL basics. Keep categories readable and don't pretend every technology has an advanced mastery level.
+Interaction: category selection rotates one graceful hub ring into alignment while lines reroute subtly. Use smoothing, explicit current selection, accessible close/reset action, and mobile tap state. The render must not obscure content or run a permanent high-intensity particle storm. This should be a concise section, not a fake computer game that takes 10 minutes to read.
+
+11. SCENE 04 — SELECTED PROJECT 01: RL TASK SCHEDULING
+This is the first hero case study, and it MUST NOT be a generic 'AI chatbot' sample. Exact title: 'Reinforcement Learning for Intelligent Task Scheduling'. Technologies: Python, PyTorch, Gymnasium. Provide project description accurate to the resume: PPO within a scheduling environment with decisions considering available resources, workload, execution priority. Evaluated conceptually against traditional scheduling algorithms using completion time, resource utilization, throughput as dimensions; actual values not supplied. Do not insert fabricated measurable improvement. Provide case study blocks 'The challenge', 'The approach', 'What I explored', 'What gets measured', with concise source-grounded copy. If a GitHub URL is not provided, omit or disable the repository CTA with an editable placeholder in content data—not a dead link.
+Visual 'DECISION ENGINE': A scroll-bound 3D staging table with small floating task capsules arriving from one side and three resource lanes/gates, each with distinctive semantics rather than arbitrary texture. The user sees tasks entering a queue, the camera pitches gently, and a decorative policy field shows routes that respond to workload/priority. Scroll is the main driver on the linear story; optionally provide an explicit 'Run demonstration' button that animates the illustration when not scroll-pinned. The animation MUST be deterministic and labelled 'Illustrative simulation — not a benchmark'. Keep resource utilization/readiness or throughput gauges as hypothetical visual examples only; if numbers are shown, mark them as sample/demo rather than empirical results. Prefer no fake numeric readouts at all.
+Four scroll beats within the case study: (1) tasks appear as grouped capsules with clear labels (priority, workload, availability); (2) a luminous decision layer fans into possible routes, with one highlighted path; (3) selected tasks flow to resource lanes; (4) lines settle into a structured output graph and reveal the actual project text. The camera shifts between top-oblique and eye-level smoothly with bounded accelerations, no jarring reversals. Provide a progress indicator with active beat text. Use InstancedMesh for similar task capsules and reusable geometries to control draw calls.
+Realistic educational feature: the visitor can click an 'Explore the logic' drawer that explains inputs, action space, reward design broadly, PPO agent concept, and baseline comparison as a conceptual model. Do NOT claim the exact reward formula is in the owner's source code; phrase 'typical design considerations' when beyond resume. The site-only simulation must not purport to execute the actual trained PPO model in the browser. Optional dynamic controls for priority/resource count may adjust a deterministic heuristic visual, clearly separating it from the documented PPO project.
+Visual atmosphere: shifting aqua lights, dark glass lanes, white numerical labels, a subtle radial platform shadow, and slow depth cues. On mobile, show a high-quality SVG/DOM infographic of the queue → policy → scheduled output with tap-based annotations; do not demand high-end GPU.
+
+12. SCENE 05 — SELECTED PROJECT 02: GPU TRAINING PIPELINE EXPLODED VIEW
+This section must honor the most striking visual reference: a true exploded-object assembly similar in clarity to the race-car/burger examples, but original and computationally meaningful. Exact title: 'GPU-Optimized Deep Learning Training Pipeline'. Technologies: Python, PyTorch, CUDA, NumPy. Accurate project points: preprocessing, mini-batch training, checkpointing, performance monitoring, and examining GPU memory use, speed, and bottlenecks; avoid any unsupported real-world speed-up numbers.
+Build a detailed PROCEDURAL 3D multilayer object with 5–7 distinct, original modules: (a) input data tiles, (b) preprocessing/filter grid, (c) mini-batch transport plane, (d) compute/gpu-like circuit slab, (e) gradient/learning loop geometry, (f) checkpoint/archive stack, (g) monitoring/output indicator. Rather than legally protected model logos or a branded commercial GPU, use generic patterned circuits, metallic layers, chips, and clear editorial overlay labels. The idle composition looks like an elegant single scientific instrument. As the user scrolls, each layer separates vertically and partially rotates with synchronized camera dolly, revealing the stack; later it reassembles into a compact chip-like form. The separation MUST be actual Three.js transform changes of unique meshes/groups—do not fake 'exploded' with only CSS cards or a flat background image.
+Specific beat choreography:
+Beat 1 (assembled): a gorgeous compact processor object, three-quarter view, subtle emissive traces, 'What powers a training loop?' copy visible.
+Beat 2 (explode): stagger layers along Y, modest X/Z offsets and mechanical easing; maintain orientation so labels remain readable. No pieces fly beyond viewport. Reveal a fine vertical spine/connector line.
+Beat 3 (pipeline): each stage lights sequentially as animated particles move from data input to batch/compute; semantic captions appear one at a time. Put real transcript in DOM.
+Beat 4 (optimization): camera approaches the generic compute slab and visualizes memory/time/throughput as qualitative axes. Never claim specific measured scores or fabricated benchmarks.
+Beat 5 (reassemble): the layers return to their assembled state, a subtle pulse, project summary and methods settle; CTA prompts visitor to view documented skills or contact.
+A scrubbed scroll timeline is preferred to time-only autoplay, so the effect can be paused and reversed simply by scroll direction. Avoid sticky scroll traps and allow section skipping. If scroll jumps, set the final states deterministically. Each layer must have stable transforms, named groups, predictable order, controlled perspective and depth, graceful fallback on small devices, and no flicker or z-fighting. PBR-inspired lighting should be restrained for speed.
+Mobile: prefer a lighter 2.5D stacked-diagram using CSS 3D or just a simplified WebGL scene if tested. All 5–7 process labels remain accessible and meaningful; touch users can select stage. Desktop screenshots should clearly prove the object actually breaks into separate layers at the right scroll position.
+
+13. SCENE 06 — EXPERIENCE: THE LEARNING JOURNEY
+Title: 'WHERE THEORY MEETS PRACTICE.' Two authentic entries: Salesforce CRM training / Administrator & Developer internship, six months in semester 3-2; and AI & Machine Learning Intern at CHV Apps (duration unspecified). Show the distinction between training/internship and company name truthfully. The timeline may be interactive: lines and points draw as entries enter viewport, small schematic icons rotate gracefully, and paper-like content panels reveal from behind dark backgrounds. Hovering over an entry can illuminate a distinct node in the background 3D network. Do not add fake career dates, promoted job titles, employers, or certificates.
+Salesforce copy: exposure to CRM objects, field relationships, validation rules, Flow, reports/dashboards, and foundational Apex/SOQL, with basic scenario testing. AI/ML copy: practiced dataset preprocessing, experimentation, model evaluation with Python, NumPy, pandas, and Jupyter. Use phrases such as 'gained exposure to' and 'explored', matching the resume rather than 'led enterprise transformation' and 'shipped 10 production models'.
+Avoid a bland card grid. Stage the two entries with an asymmetrical editorial rail—one left and one right—with line connectors and a quiet background 3D object that changes material between stages. Always preserve readable text. If only two entries, do not artificially fill a third with invented experience.
+
+14. SCENE 07 — EDUCATION AND FUTURE DIRECTION
+Title options: 'STILL LEARNING. ALWAYS BUILDING.' or 'THE NEXT EXPERIMENT STARTS HERE.' Use actual university, 2023–2027 expected, specialization, CGPA. Display university as a text label; do not use an unlicensed university crest unless supplied. The academic story is presently ongoing. A beautiful 3D notebook/paper plane can unfold into a clean academic sheet or into a minimal coordinate grid, visually conveying an open future. Keep it sincere, not a graduation ceremony image while she remains a student.
+Add a 'What I care about now' line with RL scheduling, model-training workflows, systems efficiency—topics supported by source, not unverified research specialties. The scene should become simpler as the site approaches the finale, relaxing the visual intensity before contact.
+
+15. SCENE 08 — CONTACT: RETURN TO THE PERSON
+Reintroduce PHOTO_C with the third distinctive composition and a precise atmospheric rim light or mask. A slender neural thread from hero visually resolves into a minimal signature-like underline behind the name. Make the final screen memorable but accessible. Display: 'LET'S BUILD WHAT'S NEXT.' plus 'Open to conversations about AI/ML learning, projects, and internship opportunities' (this is a call to connect, not proof of availability for immediate hire). Show mailto link, tel link, 'Download Resume', and simple navigation back to project sections. If LinkedIn/GitHub links were not supplied, omit or present an edit-ready configuration field in source documentation—not fake clickable icons.
+The contact section must NOT use a fake form that says 'Message sent successfully' without an actual configured backend. Preferred interaction: 'Email Renusarika' uses mailto:renusarikarachamalli@gmail.com; 'Copy email' writes to clipboard via browser APIs with a fallback and accessible feedback. If you choose a form, make its functionality real and explicitly secure, but because there are no provided API credentials, do not make form a blocker.
+Finish with a restrained copyright/footer '© 2026 Rachamalli Renusarika' or omit the year to avoid maintenance; say 'Designed as a personal portfolio'. Provide a back-to-top control and respect focus management.
+
+16. IMAGE PROCESSING AND THREE-PHOTO ART DIRECTION
+Treat the three portraits as important source assets and a central part of the identity. Inspect file dimensions, color profiles, orientation/EXIF, face position, background clutter, lighting direction, sharpness, and meaningful negative space. Do not identify anyone beyond the supplied identity or make inferences about sensitive traits. Choose the best hero composition instead of automatically placing photo 1 everywhere. If order needs to be stable, maintain this mapping in a photoAssets.ts content file, with an editable comment explaining which file is PHOTO_A/B/C. Asset names in final output might be /portraits/renusarika-hero.webp, /portraits/renusarika-about.webp, /portraits/renusarika-final.webp, with JPEG/PNG fallback if necessary.
+
+The hero image should use the best head-and-shoulders or full-person composition. The about image can be closer or more candid, lending warmth. The closing image can be formal or expressive, suitable for the contact finale. Do not recycle the same photo as a fourth image when three are available, unless an atmospheric blurred derivative is used as a minor background texture; all three must visibly appear as unique principal images. Important: a genuine photo may be used as a plane in the 3D environment, but do not force the portrait into procedural geometry if that causes artifacts. Prefer DOM image semantics for accessibility and content layout, with mask/clip and layered 3D around it. Keep descriptive alt text honest: 'Portrait of Renusarika', not elaborate claims about appearance or identity.
+
+Optional photo styling: subtle background separation where technically feasible; duotone-like gradient overlay on background only, not skin; mild shadow; chromatic edge glint behind the image; shoulder-aligned floating 3D geometry; responsive mask shape (soft elliptical/organic cut rather than arbitrary triangle). Do not turn real skin into plastic, change face anatomy, change outfit color, or overprocess images to look AI-generated. If a photographic element must have an isolated silhouette but automatic background removal is unavailable, use an intelligent image card and let geometry overlap the frame behind it rather than create a poor cutout.
+
+Optimize original uploads: preserve untouched copies only if small, otherwise deliver documented optimized derivatives and optionally keep original outside the bundle only when permitted. Use responsive srcset if providing sizes, with appropriate loading='eager' for hero and lazy for below fold, fetchpriority='high' only if supported and justified. Determine widths based on actual layout and image detail, avoid inflating a 512px image to a 4K full-bleed section, and never upscale to invent sharpness. Strip unnecessary EXIF location data. Set width/height or aspect ratio to prevent layout shift. Test portrait framing at 1440x900, 1024x768, 768x1024, 430x932, 390x844, and 320x568, plus a 21:9 ultrawide.
+
+17. SCROLL ARCHITECTURE: ONE CONTINUOUS STORY
+Map the complete page to physical scroll progress with a small number of section-level timelines and a central scroll-to-scene store. Do not create an unmaintainable waterfall of competing scroll handlers. Use native document scrolling with Lenis as an enhancement. Respect anchor URLs and browser history. A user clicking Projects from the hero should reach a coherent state even if a long pinned section would normally precede it. The 3D camera must sync to the new scroll position cleanly without an uncontrolled fast spin.
+
+The preferred structure is: a normal semantic HTML document containing actual sections, with one fixed or sticky canvas behind it, and carefully planned pinned-scene intervals. For each chapter define start and end locations in the actual DOM, a normalized local progress (0..1), camera preset and target, 3D object state, dominant background palette, content reveal state, and fallback configuration. Use a pure function for mapping scene progress to transforms where practical so resize/back/scroll jumps remain deterministic. GSAP ScrollTrigger should connect scroll position to choreography. Avoid using both ScrollTrigger-controlled time and a separate custom wheel accumulator to control the same object. A single frame coordinator should update scroll, camera damping, and renderer in predictable order.
+
+Do not smooth-scroll hijack mobile in a way that fights touch inertia, overscroll, accessibility assistive features, or iOS Safari. Lenis should be disabled or configured to respect reduced motion, and it must never prevent native back/forward/anchor behavior. If integration causes bugs, native scroll is better than broken smooth scroll. Include an internal 'enhanced mode' toggle for QA, and a static mode fallback for users who request reduced motion or lack GPU support.
+
+SCROLL BEAT MATRIX (target, adaptable to actual design):
+0.00–0.08: hero visible; canvas network forms, camera at opening position, CTA clickable.
+0.08–0.17: hero gives way to about; network sculpture migrates behind portrait and ribbons unfurl.
+0.17–0.28: skills constellation aligns, categories arrive, ambient nodes remain subdued.
+0.28–0.45: RL scene enters; task pool separates into decision lanes; captions phase through 4 beats.
+0.45–0.62: GPU stacked instrument appears; exploded view opens then reassembles via five beats.
+0.62–0.73: experience timeline connects two entries.
+0.73–0.84: education and academic paper/grid scene settles.
+0.84–1.00: contact portrait and final signature; canvas gradually returns to a simplified geometry motif.
+These intervals are narrative landmarks, not mandatory measured percentages. Recalculate after actual DOM layout and visual QA. All text remains readable in any scroll velocity. No 3D model may snap from screen center to a location that overlays a CTA at an interval boundary.
+
+18. CAMERA PATH DESIGN / SPATIAL CONTINUITY
+Use a consistent coordinate system across scenes or clearly manage independent scene groups. A single long-lived WebGL renderer can remain mounted, while geometry groups activate/deactivate as chapters change. Avoid allocating a new WebGL context for each section; Chrome and mobile browsers limit contexts and memory. Camera targets should be defined as scene presets in a declarative configuration. Interpolate camera position, lookAt target, focal characteristics (if used), and object orientations. Camera roll should usually remain near zero to avoid nausea. Slight yaw and pitch are fine. Avoid large field-of-view shifts that distort portrait images or make text unreadable. Keep reading content in the DOM rather than attached to a rotating 3D surface.
+
+A coherent original route might begin facing a levitating neural ring, glide sideways as a data ribbon trails into the next scene, arc around a constellation, descend toward task scheduling lanes, then push into the GPU layer stack, ease upward along the timeline spine, and back away to reveal a simple circle/halo behind the final portrait. The last movement can subtly echo the first, giving the experience a completed emotional arc. Design this route on paper/config first, then verify in screenshots taken at key scroll positions.
+
+Suggested implementation pattern: define objectGroups keyed by ChapterId, a cameraRig with position and target, and one sceneStore exposing current chapter and normalized progress. The update frame obtains smooth time delta clamped against tab throttling, reads one global scroll state, updates only active chapter and adjacent transitioning groups, and renders. Use vector lerp, quaternion slerp, or curves for paths as needed, not linear independent Euler values that can spin unexpectedly. Do not use physically huge z-travel distances that trigger clipping. Set near/far planes tightly enough for stable depth and appropriate scale.
+
+The actual camera movement should feel like a cinema dolly: accelerations and decelerations are intentional, framing is stable, text has room. Keep motion below comfort thresholds; implement reduced motion. Section transitions must not be abrupt crossfades revealing empty canvas. Scene composition should gracefully adapt to wide, narrow, and portrait viewports using aspect-aware camera targets, object scales, and safe-zone constraints. A 3D object may shift left or right to keep a photo readable, but never move text arbitrarily offscreen.
+
+19. 3D ENGINEERING SPECIFICATION
+Initialize renderer with antialias if performance permits, alpha if necessary, and appropriate power preference, but gracefully handle WebGL initialization exceptions. Use correct output color space and tone mapping appropriate to the installed Three.js version; verify rendering. Do not mix deprecated Three.js API patterns from outdated tutorials. Ensure scene scale, lights, geometry and materials have predictable ownership. Centralize object disposal: geometries, materials, textures, render targets, passes, animation loops, event listeners, GSAP timelines, and observer handles. On Vue unmount or hot reload, release resources, kill triggers, remove ticking listeners, and call dispose on renderer/context where appropriate. Avoid memory leaks when navigating or resizing.
+
+Use procedural geometry where it provides meaning: neural node graph (InstancedMesh spheres with edges), a tubular ribbon spline, task scheduler capsule instances, connected lanes, pipeline slabs, checkpoint cubes, and a minimal scene halo. You can write authored ShaderMaterial for subtle signal movement, but supply robust compile fallback and prefer Three.js standard materials where quality is comparable. No externally hosted GLB model should be mandatory. If a custom GLB is generated offline and included, use compressed glTF when available, and provide source/credit; do not require Blender on the deployment server. Keep file sizes sane. If geometry is intricate, create reusable helper functions such as createRoundedSlab, makeCircuitTrace, createNodeNetwork, and createTaskCapsule.
+
+Avoid per-frame material allocation, BufferGeometry rebuilds for static elements, expensive shadow map updates, too many transparent overlapping meshes, depth sorting artifacts, huge postprocessing multipass chains, and running multiple render loops. Circuits can be authored with thin tube segments and instanced motifs. Render lines with stable WebGL-compatible thickness techniques: be cautious because native LineBasicMaterial linewidth is effectively limited in WebGL; use appropriate meshes or supported addons if thick lines are essential. For translucent cards, composite lightly with HTML rather than huge glass physical materials. Use fog to create depth sparingly; gradients and background planes often achieve the effect with much lower cost.
+
+Performance tiering should be explicit: Tier A desktop high capability supports the full sculpture, subtle bloom, mid particle count, detailed GPU stack; Tier B normal laptop disables heavy postprocessing and lowers geometric detail; Tier C mid-range mobile uses simplified materials, static or lightly animated 3D, fewer particles and at most one simple animated focal object; Tier D reduced motion/WebGL unavailable shows carefully authored 2D compositions with all content and working links. Detect features, respect prefers-reduced-motion and prefers-reduced-data where available, and avoid making a performance assumption based only on screen width. A capable phone and an overloaded laptop should be handled sensibly.
+
+Potential budgets (targets, not invented measured results): background node instances approximately 80–180 desktop, 20–60 mobile; concurrent draw calls ideally under about 100–150 for the active hero scene and fewer on mobile; pixel ratio cap 1.5–1.75 desktop and 1.0–1.25 mobile depending on profiling; one renderer context; no unnecessary continuous animation while fully offscreen or hidden. These are adjustable engineering guidance, not claims of achieved performance.
+
+Use ResizeObserver or appropriate resize events to update viewport, renderer display resolution, camera projection and ScrollTrigger.refresh after fonts/images become stable. Read the Three.js official responsive rendering guide before blindly setting devicePixelRatio: https://threejs.org/manual/pages/responsive.html . Choose actual drawing resolution with performance in mind. On high-DPR mobile, do not render at 3x native by default. Pause renderer on document visibility hidden. If power-saving mode cannot be detected reliably, default to sensible baseline.
+
+20. MOTION DESIGN SYSTEM / TIMING GRAMMAR
+Treat animation as a single design language. Establish motion tokens: quick feedback 120–220ms; button/hover 180–320ms; simple content reveal 450–750ms; major panel transition 700–1200ms; chapter camera transition scrubbed to scroll; subtle ambient drift 5–15 seconds per cycle. Use easing consistently: power2.out for quick reveals, power3.inOut for substantial camera/geometry transitions, sine.inOut for ambient movement, spring-like easing only for small interface feedback. No bouncing page transitions or aimless looping elements that dominate the narrative. Animation sequencing should create visual hierarchy.
+
+Scrub progress should update 3D in a stable way and support reversing. The user's hand controls time via the scroll wheel/touch. Avoid 'laggy' input: the user should never feel the site has frozen or that text is dragging behind the scrollbar. Lenis smoothing should be subtle, with predictable anchors and long-page scroll. Test slow and fast scrolling, drag scrollbar thumb, Space/PageDown/End/Home keys, reload at mid-page, browser Back/Forward, and URL hash navigation.
+
+Cursor interactions: optional small circular cursor only on fine-pointer devices, never remove the native cursor for accessibility, and keep text links obviously interactive. Better: preserve native cursor and implement a tiny follower dot or glow as a decorative enhancement with pointer-events none. Cursor-following portrait must be an optical effect on a surrounding halo or node field; do not deform a real face. Hover-to-reveal tech graphic should appear within 200–350ms and disappear gently, support keyboard focus and touch tap, and be disabled for reduced motion. Magnetic buttons should be modest (e.g. translation under 6px), never turn into moving targets. Buttons must remain clickable and accessible.
+
+Scene color transition: animate background tone within a tight curated palette, avoiding huge flashes. For content over dark backgrounds use high contrast; for a lighter editorial interlude, fade across a short transition while ensuring text remains readable throughout. Do not use 12 simultaneous text animations; isolate a focal headline and let body text appear naturally. Fancy text split effects must preserve an accessible un-split text alternative and avoid tab/focus chaos.
+
+21. 3D EXPLODED VIEW DEEP ENGINEERING
+The GPU pipeline effect is a flagship requirement and should receive a disproportionate share of engineering effort. Model each stage as a unique Group at rest position p0_i. Define stable exploded target p1_i, rotation q1_i, lighting accent, and semantic caption ID. On progress t in [0,1], interpolate from assembled to exploded and then through separate highlight states. Keep all parameters centralized so an art director can tune spacing without opening 15 components. Use deterministic interpolation; when the page loads at a deep scroll position, compute the exact corresponding exploded state immediately. Avoid 'play all previous animations' bugs.
+
+Physical credibility: larger circuit slab at base, four or five thinner process plates above, small edge pins, fine traces, simplified cooling ribs or vents; it should look like a plausible speculative scientific instrument rather than a photoreal branded GPU. Use high-quality material gradients, beveled edges where practical, and carefully placed highlights. Two or three lighting sources plus ambient fill may suffice; high-poly geometry is not always needed. Match the image from a coherent camera perspective so viewers can perceive separation in Z/Y. Add wire connectors that stretch or fade during disassembly; ensure no meshes visibly clip. A short perspective ramp or camera pullback can keep all layers within the viewport.
+
+Editorial annotation design: each exploded layer has a corresponding HTML caption in an aligned left/right column that connects visually to the layer via a thin spline/line; screen reader sees the numbered process even if canvas is hidden. Number the stages 01 Data prep, 02 Mini-batches, 03 GPU compute, 04 Monitoring, 05 Checkpoints, 06 Output analysis. If you choose seven modules, split as meaningful distinctions rather than padding. Animate one active annotation at a time to prevent clutter. Fine-pointer hover may focus an isolated plate, but scrolling should remain the primary narrative driver.
+
+Add a 'View stages' accessible control for motion-disabled/mobile users. Clicking a stage updates label, highlights the conceptual module, and displays a clear short paragraph. Pressing Escape resets focus if a drawer is open, and focus returns to the invoking button. Render decorative dashed lines with CSS/SVG rather than expensive shader passes when appropriate. Do not attempt a fully detailed photoreal PC disassembly that exceeds project scope.
+
+22. INTERACTIVE RL VISUALIZATION: REAL MEANING, NOT FAKE ACCURACY
+The scheduler diagram can offer safe educational controls: task priority filter, available resources count (say 2–4), simulated workload distribution. This may be a simple deterministic illustrative visualization using a documented heuristic, NOT the actual trained PPO agent and NOT a scientific benchmark. Put a prominent 'Demonstration only' label near controls and a tooltip describing that algorithm outputs are illustrative unless real source weights and data are provided. If the code contains a scoring function, name it demoHeuristicSchedule, never ppoPredict without an actual trained model. Do not invent a reward formula and attribute it to Renusarika. A truthful alternative is to leave the scheduling view solely animated and provide no controls.
+
+Visually represent queue pressure with a stack of tokens and capacity with slots. Colors encode stable semantics: muted white for pending tasks, aqua for assigned, violet for policy evaluation, amber for busy resources. Include a text legend. An animated selected path can have particles but keep them slow and few. Click a task to reveal attributes in an accessible panel; do not make every piece of geometry an unlabelled interactive target. Keep all state in a small reactive store and drive Three.js through a controlled adapter rather than updating Vue dozens of times a frame.
+
+Failure states: if WebGL disabled, render an elegant SVG of queue → agent → resources. If a device can't handle pointer picking, rely on the HTML panel. If the user drags the page while hovering over canvas, the document still scrolls. Never trap touch in a 3D canvas unless the user explicitly enters a focused drag interaction with a clear exit.
+
+23. VISUAL INTERFACE COMPONENTS / PAGE STRUCTURE
+Top header: floating but compact translucent surface, logo/wordmark (e.g. 'RR / Renusarika'), links About, Skills, Projects, Experience, Education, Contact, a simple 'Resume' CTA. Hide excess links in a mobile drawer with correct aria-expanded and Escape behavior. Include skip link and back-to-top. Sticky header must not mask anchored section headings; use scroll-margin-top.
+Hero: full viewport with balanced text, portrait, 3D scene, muted helper line, real CTAs. Interactions are opt-in enhancements.
+Profile: large editorial typography, portrait B, academic details. A short content block is enough.
+Skills: 3D constellation plus real HTML skills list or tabs; do not make it a dense carousel requiring scrubbing to read.
+Projects: two deeply developed full-width cinematic case studies with text sections and real procedural objects. They should receive the largest design effort and the most visual variety.
+Experience: compact but distinctive timeline; preserve truth.
+Education: proof of present study status and short future outlook.
+Contact: portrait C, mail and phone links, reliable copy feature, resume download.
+Footer: light touch, with intentional empty space, no meaningless badges.
+
+Use reusable UI primitives: SectionIndex, GradientLabel, RevealText, AnimatedLink, SmartImage, ProjectMetadata, SkillGroup, TimelineEntry, IconButton, VisuallyHidden, ReducedMotionToggle. Important: do not create 50 wrappers for an eight-section site. Composition is the priority; components should express real reuse and lifecycle boundaries.
+
+24. EXPECTED CODE REPOSITORY STRUCTURE
+A reasonable initial project tree, adjust to match actual code while retaining clear separation:
+
+Rachamalli_Renusarika_3D_Portfolio/
+  package.json
+  package-lock.json                    # if generated by npm install
+  README.md
+  CONTENT_REVIEW.md
+  VISUAL_QA.md
+  PERFORMANCE_NOTES.md
+  REFERENCES.md
+  .gitignore
+  .nvmrc                              # optional, supported LTS
+  index.html
+  vite.config.ts
+  tsconfig.json
+  tsconfig.node.json                   # if used
+  eslint.config.js                     # if configured
+  vercel.json                          # only when needed
+  public/
+    portraits/
+      renusarika-hero.webp
+      renusarika-about.webp
+      renusarika-final.webp
+    resume/
+      Rachamalli_Renusarika_Resume.pdf
+    icons/
+      favicon.svg
+    og/
+      social-preview.webp              # optional, generated from licensed assets
+  src/
+    main.ts
+    App.vue
+    components/
+      SiteHeader.vue
+      MobileNavigation.vue
+      SiteFooter.vue
+      AmbientCursor.vue
+      ScrollProgress.vue
+      ScrollCue.vue
+      SkipLink.vue
+      HeroPortrait.vue
+      PhotoReveal.vue
+      SkillSelector.vue
+      ProjectCaseStudy.vue
+      ProjectStageLabels.vue
+      ExperienceTimeline.vue
+      ContactActions.vue
+    sections/
+      HeroSection.vue
+      AboutSection.vue
+      SkillsSection.vue
+      SchedulingProjectSection.vue
+      GPUPipelineSection.vue
+      ExperienceSection.vue
+      EducationSection.vue
+      ContactSection.vue
+    three/
+      SceneHost.ts
+      renderer.ts
+      cameraRig.ts
+      sceneController.ts
+      scenePresets.ts
+      qualityTiers.ts
+      assetManager.ts
+      dispose.ts
+      primitives/
+        createNeuralConstellation.ts
+        createDataRibbon.ts
+        createTaskScheduler.ts
+        createGpuPipeline.ts
+        createLabHalo.ts
+      shaders/                        # optional real files only
+    animations/
+      scrollTimeline.ts
+      chapterTransitions.ts
+      motionTokens.ts
+      lenisController.ts
+    composables/
+      useReducedMotion.ts
+      useWebGLSupport.ts
+      useBreakpoint.ts
+      useSceneProgress.ts
+      useClipboard.ts
+    data/
+      portfolio.ts                    # verified human copy, projects, experience
+      navigation.ts
+      photoAssets.ts
+    styles/
+      tokens.css
+      base.css
+      typography.css
+      layout.css
+      motion.css
+    utils/
+      math.ts
+      dom.ts
+    types/
+      portfolio.ts
+  tests/
+    content.test.ts
+    math.test.ts
+    smoke.spec.ts
+
+Do not blindly create every file if it will be empty. The architecture must reflect actual working functionality. SceneHost should have a clear init → update → resize → dispose lifecycle. Components should not initialize duplicate ScrollTriggers on every render. The data file should be trivially editable when a verified GitHub profile or additional project becomes available. Use descriptive TypeScript types and avoid excessive any. Do not expose code or implementation solely through minified production bundles; give maintainable source.
+
+25. SOURCE DATA MODEL / CONTENT GOVERNANCE
+Create a content module with explicit fields: identity.fullName, identity.displayName, identity.tagline, identity.email, identity.phone, identity.role, identity.academicStatus, education institution/program/specialization/startYear/expectedYear/CGPA, skills grouped with accurate level-neutral labels, experience with source-preserving employerLabel/roleLabel/durationLabel/summary/bullets, and projects each with title, slug, stack, problem, approach, evidenceBullets, metricsExplanation, repositoryUrl optional, demoUrl optional, graphicVariant. Optional links must default to null and not create empty anchors. Provide a content-validation unit test checking exact project names, 2027 expected graduation, real email, lack of guessed social URLs, and non-empty alt text. Keep all visible strings source-driven where appropriate to enable safe future edits.
+
+Review page copy for nuance: a student may have internship exposure, not years of full-time employment. Use present tense for ongoing interests, past tense for completed internships/projects as source phrased, and 'expected' for 2027. No stock phrases like 'redefining the future of artificial intelligence' unless clearly presented as a creative mission statement and not a factual achievement. Keep case-study pages honest: no system architecture diagrams pretending to come from actual original code unless derived from attached work. Decorative graphics can symbolize workflows and must be labelled as conceptual in explanatory sections.
+
+26. PERFORMANCE CONTRACT AND LOADING STRATEGY
+Aim for strong Core Web Vitals on representative devices: LCP 2.5 seconds or better, INP 200ms or better, CLS 0.1 or less, recognizing these are measurable goals and not guaranteed results. Real outcomes depend on device, network, and deployment. Configure a lightweight initial HTML/CSS state, deferred WebGL initialization when safe, route/page-level lazy loading only when beneficial, optimized images, module chunking, and conservative resource use. Avoid sending a 25MB GLB, a 6MB custom font, or 2000 particles by default. Track production bundle sizes with build output. Optimize first paint before bells and whistles. In a Chrome DevTools Performance trace, inspect long tasks, memory, layout shifts, and GPU cost if tool access allows.
+
+Heavy scene assets and textures should be deferred until the relevant chapter approaches the viewport, except components reused in the hero. Precompute static geometry once, share materials where appropriate, use pooling. Dispose or deactivate distant groups without causing transitions to pop. Use fixed-size arrays and typed arrays for particle positions, avoid repeated garbage collection each frame. Lazy load below-the-fold portraits. On mobile simplify scene complexity rather than render full desktop complexity at smaller dimensions. Avoid sound/music autoplay entirely: it isn't requested and harms usability.
+
+WebGL compatibility matrix: handle WebGL disabled, missing extensions, context loss, context restoration when feasible, low GPU memory, browser tab hidden, landscape orientation, zoom to 200%, different device pixel ratios, reduced motion, and no-pointer devices. If WebGL fails, the whole website must stay functional and attractive. If an image fails, graceful fallback background and meaningful text. If a font fails, use fallback without layout collapse. If JS is disabled, the HTML provided by a client SPA may not display full content; strive to render a meaningful noscript message and content summary. For SEO, prefer semantic markup and consider SSG/pre-render only if it can be integrated without destabilizing build.
+
+Do not claim 60fps without measuring. Set practical targets: 45–60fps desktop on a representative modern device, comfortable 25–45fps mobile where enhanced motion is enabled, and avoid hard freezes. If the test environment is weak or unavailable, disclose that these targets remain unverified. Desktop visually impressive is a requirement; mobile usable is not negotiable.
+
+27. ACCESSIBILITY AND RESPONSIVE CONTENT QUALITY
+Accessibility must be designed, not bolted on. Every page has one H1 (name and/or main title), sections with H2/H3 logical hierarchy, landmarks header/main/footer, descriptive button/link names, skip-to-content, visible focus indicator, sensible tab order, heading anchors, sufficient contrast, semantic lists for technologies and timeline items, keyboard-operable disclosures, no keyboard traps, and correct aria state for mobile menu or modals. Provide alt text for portraits. Decorative canvases should be aria-hidden and never be the only conveyance of technical facts. Where a control changes a visible diagram, offer a text explanation of the state in the DOM and an accessible current selection.
+
+Reduced motion: set up CSS @media (prefers-reduced-motion: reduce) and matching JS. Disable scroll-scrub camera journeys, long smooth scrolling, non-essential looping particles, autoplay intro, exaggerated parallax, and pointer-follow effects. Maintain elegant static compositions and clear section divisions. If a manual 'Reduce motion' toggle is present, prefer it to persist only during the session unless a transparent privacy-conscious local storage option is intended. Respect native preference on first load; avoid overriding user settings.
+
+Responsive target matrix: 320px narrow mobile; 360px Android; 390px mobile; 430px mobile; 768px tablet portrait; 1024px small laptop/tablet; 1280px laptop; 1440px desktop; 1920px large display; ultrawide 2560px. At 320px there must be no overflow or hidden primary CTA. At 390px the hero headline should wrap deliberately, no portrait face cut off, navbar usable, and at least one CTA visible without excessive scrolling. At 768px design should not awkwardly inherit a desktop 3D right column. At 1440px hero should use balanced negative space. At ultrawide, text max-width prevents very long lines and scene objects are not stretched. Also test small landscape screen heights, where full-screen sticky sections can trap the user.
+
+Focus states must be visible even on transparent backgrounds. Touch targets >= 44x44px where practical. Decorative cursor effects must not obscure system pointer. Avoid autoplay video backgrounds, forced scrolling, disabling text selection, inability to copy email, huge cookie banners, chat widgets, consent prompts without need, and unnecessary popups. No repetitive spinning that creates dizziness.
+
+28. SEO, META, SHARING, AND PRIVACY
+Create <title> tailored to the real portfolio, e.g. 'Rachamalli Renusarika | AI/ML & Reinforcement Learning Portfolio'. Meta description should state she is a B.Tech (CIC) student graduating in 2027 and showcase RL scheduling and GPU training pipeline interests without claiming unverified accomplishments. Add Open Graph/Twitter metadata with appropriate title, description, and optional custom generated preview from consented assets. Define canonical URL only if known from deployment; otherwise document where to set it after Vercel provides domain. Include a simple SVG favicon with original RR initials. Avoid indexing contact details that the owner did not approve beyond what she explicitly included in the resume; the provided email/phone may be used as professional contact, but document them in CONTENT_REVIEW so she can choose to remove the phone before publication.
+
+Do not include Google Analytics, tracking pixels, fingerprinting, heatmaps, or external chat services by default. No external font/asset requests that create privacy surprises if self-hosting is easy and permitted. No secrets in VITE_ variables or client code. No repository tokens. If you add a contact action, prefer mailto and copy email; no external service credentials needed. Provide a minimal CSP suggestion in README only if it won't block necessary WebGL/assets. Protect external links with rel='noopener noreferrer' when target='_blank'.
+
+29. VERCEL PRODUCTION PREP, GIT, AND WINDOWS WORKFLOW
+This website must be readily deployable to Vercel. At minimum, package.json must expose scripts: dev, build, preview, and where configured lint, typecheck, test, test:e2e. The build script should include type checking where feasible and invoke vite build. Ensure the output directory dist. Do not rely on development-only absolute filesystem paths, Windows backslashes, or local machine images outside the project. Use import.meta.env correctly for Vite, and never expect process.env at runtime in browser code.
+
+README must provide these exact high-level tasks in clear commands: unzip project; open terminal in root; verify Node/npm version and install a supported Node LTS; run npm install or npm ci if a lockfile exists; run npm run dev; open Vite local URL; optionally npm run build and npm run preview; upload project to GitHub or connect repo in Vercel; import project and ensure Framework Preset: Vite, Root Directory correct, Build Command npm run build, Output Directory dist; deploy. If using Vue Router's history mode with multiple routes, add proper SPA fallback rewrites and verify. If using only anchors in a one-page app, omit unnecessary rewrites. Explain how to update name, project text, 3 portraits, and resume PDF without touching animation logic.
+
+Make it robust for Windows filenames with parentheses and spaces from WhatsApp uploads; rename copied media to simple kebab-case destination filenames. Avoid case-sensitive import bugs that work on Windows but fail in Linux Vercel builds. Check relative asset paths and base URL. Ignore node_modules, dist, .env, *.log and other generated files in .gitignore. Do not include hard-coded localhost links inside production anchors. Document any external npm packages and their licenses as appropriate.
+
+30. QUALITY ASSURANCE AS AN ENGINEERING GATE
+Before saying the project is complete, execute real tests in a working environment. Run dependency installation, TypeScript validation, a build, lint if available, and a preview HTTP smoke check. If a browser is available, capture at least six desktop scroll positions and four mobile scroll positions and visually inspect: hero, skills, RL exploded/scheduler, GPU assembled, GPU exploded, experience, contact. Correct all clipping, overlap, layout shift, wrong section ordering, awkward font wrapping, duplicate content, missing image, broken navigation, frozen scroll, disappearing canvas, and unreachable CTAs. Do not merely say 'looks great' without having tested it.
+
+Test functionality: 'Explore Projects' takes user to real section; resume button returns real user-supplied PDF; email opens mail app; phone uses tel; copy email updates clipboard status; menu opens/closes with mouse/touch/keyboard; anchors are correct; videos aren't embedded as copyrighted backgrounds; 3 portrait photos are present; each project has accurate name and stack; no fake links. Test all breakpoints. Test with reduced motion, text zoom, keyboard only, and if possible screen reader semantics. Ensure the page remains scrollable if WebGL throws an exception during boot.
+
+When tests or screenshots are unavailable, don't fabricate success. Document exact limitations in VISUAL_QA and final message. In particular, a superficially polished static screenshot does not prove scroll-linked 3D or mobile behavior; inspect active interactions or source execution wherever possible. Complete the actual project rather than handing off a to-do list to the user.
+
+31. QUALITY BAR: WHAT A BAD RESULT LOOKS LIKE
+A bad result would have generic animated gradient background, floating card grid, large 'Hello I'm...' text, a single rotating cube, mismatched headshot, stock imagery, 'Lorem Ipsum', fake internship dates, cloned WLT screens, broken sticky sections, unsupported 3D code, mobile horizontal scrolling, or source files missing from ZIP. Another bad result would be a flashy 3D site with unreadable text, dead CTAs, keyboard inaccessibility, fake GPU performance charts, external asset hotlinks, huge bundles, and no Vercel instructions. Do not ship these outcomes.
+
+A merely acceptable site with occasional simple 3D decoration is also below the requested bar. Your project should have at least TWO purpose-built semantic interactive 3D set pieces with meaning—RL scheduling scene and GPU exploding pipeline—plus a distinctive portrait-led hero and controlled narrative camera transitions. All effects must survive test conditions and support graceful fallback. If a single elaborate effect threatens the stability of the entire deliverable, choose stability and refine the remaining effects rather than leaving the app broken.
+
+32. DEFINITION OF DONE
+The project is DONE only when: source code builds; a ZIP exists; all three portrait sources are either included or documented as missing with graceful fallback; the resume is included if supplied; truth-preserving content is present; no invented claims; original art direction; main 3D scenes are genuinely implemented; scrolling and camera states have been tested at key positions; navigation, downloads, contacts work; phone layouts are usable; WebGL fallback works; keyboard and reduced-motion behavior are implemented; README covers Vercel deployment; and tests/build evidence is honest. 'I wrote the prompt' is not the deliverable for this Workspace task. Deliver the actual project and link it.
+
+33. EXECUTION PLAN FOR AN AUTONOMOUS CODING WORKSPACE
+Run a disciplined one-pass project workflow, not an endless brainstorming loop. Phase A — source audit: inspect PDF, videos if supplied, three photos, file inventory, dimensions, source-data conflicts. Phase B — define architecture and art direction in concise internal notes: visual style, chapter storyboard, project page map, component plan, fallbacks, priority risks. Phase C — scaffold a clean Vue/Vite TypeScript app with styles and source truth. Phase D — implement all functional semantic sections and mobile layout first, including reliable links/download, so there is an end-to-end working baseline. Phase E — create procedural Three.js primitives and actual 3D narrative, wiring camera state to scroll via GSAP/Lenis. Phase F — refine photo reveals, labels, interactions, and responsive compositions. Phase G — optimize rendering, implement fallback/reduced motion/accessibility, then test and fix. Phase H — document findings, package exact ZIP, verify files in ZIP, deliver.
+
+Do not ask the user dozens of aesthetic questions. Use the provided creative direction as the specification. There are only a few data fields that require truthfulness: absent GitHub/LinkedIn profile, unprovided project source links, unprovided precise internship dates, and exact uploaded photo identity order. The response should simply omit unknown links and put clear TODO entries in CONTENT_REVIEW. Do not fabricate anything just to fill a design slot. If the source says currently studying, make it unmistakable in header/hero and education.
+
+Internal work allocation priorities: 20% reliable content/structure/visual system; 25% 3D scene design/renderer; 20% scroll choreography; 15% responsive art direction/portrait integration; 10% QA/performance/accessibility; 10% build/package/docs. These are emphasis weights, not time estimates. Avoid spending all effort on a loading animation at the expense of real projects. The shipped result needs substance and polish in equal measure.
+
+34. COPY DECK: READY-TO-USE WRITING (EDIT ONLY FOR FACTUAL ACCURACY)
+Hero eyebrow: 'COMPUTER SCIENCE UNDERGRADUATE / CLASS OF 2027'
+Hero display: 'RACHAMALLI' followed by 'RENUSARIKA'
+Hero primary line: 'I explore how intelligent systems learn, decide, and perform.'
+Hero secondary line: 'AI/ML · Reinforcement Learning · Efficient Training Systems'
+Hero button 1: 'Explore My Work'
+Hero button 2: 'Download Resume'
+Scroll helper: 'SCROLL TO EXPLORE' (and immediately legible tap alternatives on mobile).
+About eyebrow: '01 / ABOUT'
+About title: 'A curious mind. A systems perspective.'
+About paragraph: 'I'm pursuing a B.Tech in Computer Science and Engineering (CIC) at Annamacharya Institute of Technology and Sciences, Tirupati. My interests span reinforcement learning, machine-learning experiments, and the systems that make model training more efficient. I enjoy turning complex problems into structured experiments and clear software workflows.'
+About facts: '2027 / Expected graduation'; '8.88 / 10 CGPA'; 'CIC / IoT, Cyber Security including Blockchain Technology'.
+Skills eyebrow: '02 / TECHNICAL TOOLKIT'
+Skills title: 'A toolkit shaped by experimentation.'
+Skills support: 'From algorithms to infrastructure, I build with an interest in what happens under the hood.'
+Project 1 eyebrow: '03 / SELECTED PROJECT'
+Project 1 title: 'Teaching a scheduler to make better decisions.'
+Project 1 formal heading: 'Reinforcement Learning for Intelligent Task Scheduling'
+Project 1 lede: 'An exploration of PPO-based scheduling in an environment that considers resource availability, workload, and execution priority.'
+Project 1 challenge: 'Scheduling is not just about selecting the next task. It means balancing competing priorities and resource constraints.'
+Project 1 approach: 'I developed an environment for reinforcement-learning decisions and examined outcomes using task completion time, resource utilization, and system throughput as evaluation dimensions.'
+Project 1 stack label: 'Python / PyTorch / Gymnasium'
+Project 1 CTA if no repo: 'Explore the Approach' (opens explanation, not an invented GitHub destination).
+Project 1 illustration caption: 'Conceptual scheduling visualization — not a live trained PPO model or measured benchmark.'
+Project 2 eyebrow: '04 / SELECTED PROJECT'
+Project 2 title: 'Inside the training loop.'
+Project 2 formal heading: 'GPU-Optimized Deep Learning Training Pipeline'
+Project 2 lede: 'A training workflow exploring data preprocessing, mini-batches, checkpoints, and the computing bottlenecks that shape scalable model development.'
+Project 2 challenge: 'Good model training depends on more than an architecture. Data movement, memory use, and monitoring influence the whole system.'
+Project 2 approach: 'I built a pipeline and analyzed GPU memory usage, training speed, and computational bottlenecks to better understand efficiency and scalability.'
+Project 2 stack: 'Python / PyTorch / CUDA / NumPy'
+Project 2 stage captions: 'Prepare the data'; 'Organize mini-batches'; 'Process on the GPU'; 'Track progress'; 'Save checkpoints'; 'Review bottlenecks'.
+Experience eyebrow: '05 / EXPERIENCE'
+Experience title: 'Learning by doing.'
+Experience summary: 'Practical exposure across CRM workflows and Python-based machine-learning experiments.'
+Experience A title: 'Salesforce CRM training / Administrator & Developer Internship'
+Experience A context: '6 months · Semester 3-2'
+Experience A paragraph: 'Practiced CRM data management, custom objects, relationships, validation rules, Flow, introductory Apex/SOQL, dashboards, and scenario-based testing.'
+Experience B title: 'AI & Machine Learning Intern'
+Experience B organization: 'CHV Apps'
+Experience B paragraph: 'Explored Python-based data preparation, model experiments, dataset preprocessing, testing, and evaluation using NumPy, pandas, and Jupyter Notebook.'
+Education eyebrow: '06 / EDUCATION'
+Education title: 'Curiosity is a long-term project.'
+Education degree: 'B.Tech · Computer Science and Engineering (CIC)'
+Education school: 'Annamacharya Institute of Technology and Sciences, Tirupati'
+Education detail: '2023–2027 (Expected) · CGPA 8.88/10'
+Education focus: 'Specialization: IoT, Cyber Security including Blockchain Technology'
+Contact eyebrow: '07 / CONTACT'
+Contact title: 'Let's build what comes next.'
+Contact paragraph: 'Interested in talking about reinforcement learning, ML systems, projects, or internship opportunities? I'd love to connect.'
+Contact CTA: 'Email Renusarika'
+Contact secondary: 'Copy Email' / 'Download Resume'
+Footer: 'Rachamalli Renusarika · Computer Science (CIC) Undergraduate'
+
+All copy can be tightened to fit a more beautiful layout, but don't remove the core factual evidence. No fake numbers, company logos, or awards. The copy should sound confident without being self-aggrandizing. Words like 'explore', 'developed', 'built', 'evaluated', and 'analyzed' must be used with respect to the actual resume descriptions.
+
+35. DESIGN LANGUAGE: A STRONGER VISUAL SPEC
+The visual story has four design modes within one coherent universe:
+Mode 1 'Human / silhouette': portrait-led, soft warm lighting, large spacious typography.
+Mode 2 'Systems / data': cool violet/aqua lines, thin labels, clear structured diagrams.
+Mode 3 'Compute / material': premium dark titanium, glass, controlled emissive circuit edges, detailed geometric object.
+Mode 4 'Return / invitation': return to human portrait, clean gentle composition, almost no visual noise.
+Colors should migrate gradually as modes change; black remains a consistent anchor. Do not change fonts per mode. Treat the transitions like chapters of one visual story rather than separate landing pages pasted together.
+
+Consider a small motif visible across the site: three soft illuminated rings representing input, decision, execution. In hero, they orbit near a photographic image; in skills they become category boundaries; in scheduling they become gates; in GPU pipeline they become connectors; in closing they become an elegant halo. Use different geometry variants to avoid repetitive visual composition. This repeated metaphor provides brand continuity without a logo-heavy experience.
+
+Responsive 3D framing rules: on desktop, reserve one side of the viewport for essential text in each chapter, and frame geometry on the opposite side. If mobile, make a hero image and model occupy a 260–420px high zone, with content in normal flow below; avoid pinning that fills 100vh when content exceeds viewport. Long project sections should use a sticky visual only if text remains scrollable and a safe exit exists. Avoid making the user watch a 4-second animation before the next paragraph enters.
+
+Visual complexity should have purposeful peaks: hero medium-high; about low-medium; skills medium; RL high; GPU highest; experience medium-low; education low; contact medium with an emotional finish. This rhythm is important—if every section uses all possible 3D effects, nothing feels special and performance suffers.
+
+36. FRAME COORDINATION REFERENCE IMPLEMENTATION
+Implement a single authoritative update loop. One robust approach is to synchronize Lenis and ScrollTrigger using the official Lenis recipe: create one Lenis instance with RAF driven externally, listen to lenis scroll events to invoke ScrollTrigger.update, and run lenis.raf(timestampMilliseconds) from a GSAP ticker callback; disable ticker lag smoothing if the integration requires it. Feed active scene progress from ScrollTrigger into a small mutable controller. Advance scene animations and renderer with the same clock where feasible. Do not simultaneously set Lenis autoRaf=true AND add a second manual RAF loop to it. Use Vue mount/unmount hooks and clean up the ticker listener on unmount. Respect reduced motion by not initializing smooth scrolling or using native behavior.
+
+Examples of technical correctness to verify rather than blindly paste:
+- GSAP ticker passes time in seconds; Lenis raf expects milliseconds in the documented integration.
+- Resize should call renderer resize, camera projection update, and ScrollTrigger.refresh after layout has stabilized.
+- ScrollTrigger matchMedia can create different chapter timelines for desktop vs mobile.
+- Pinning an element inside a transformed ancestor can cause unexpected fixed-position behavior; avoid nested pin fights.
+- On reload at a deep hash, the correct 3D state should be reconstructed deterministically.
+- Recreating a full scene on every reactive state update is a severe bug.
+- Transparent geometries may sort incorrectly; reduce overlapping transparent materials and configure depth behavior thoughtfully.
+- A canvas overlay needs pointer-events none unless a specific interaction is being actively handled; project links must remain clickable.
+- Three.js dispose must clean GPU objects; Vue's removal of the canvas alone is not enough.
+- Global event listeners and gsap triggers must be killed on unmount; hot module reloading should not multiply them.
+
+Use the official documented API from the installed version, not guesswork from archived StackOverflow answers. Consult these sources if internet is available:
+https://gsap.com/docs/v3/Plugins/ScrollTrigger/
+https://github.com/darkroomengineering/lenis
+https://github.com/darkroomengineering/lenis/blob/main/packages/vue/README.md
+https://threejs.org/manual/pages/responsive.html
+https://vercel.com/docs/frameworks/frontend/vite
+https://vuejs.org/guide/introduction.html
+
+37. INTRO TO PROJECT TRANSITION: A PROPOSED CINEMATIC SCRIPT
+At the very start, the camera sees luminous nodes forming an incomplete arc. Portrait A is fully visible as the human anchor, while fragments of the arc appear behind it at distinct depths. A thin dotted path traces across the bottom of screen toward 'Explore My Work'. The first wheel movement makes the arc become a ribbon; there is a slight horizontal shift and the portrait glides past a masked title. No teleport, no fade to black.
+
+In the about chapter, the ribbon becomes three parallel lines; they pass through meaningful facts and then arc upward. A focused portrait B appears from behind a soft diagonal mask, with two-stage animation (mask then image). The 'Expected 2027' label remains readable. As you leave about, the ribbon separates into six branches which become the skills constellation. This is the first feeling of continuity: the viewer knows every effect belongs to the same underlying object.
+
+The skills constellation needs a sense of purposeful dimension, not random orbit. Six clusters are positioned on a ring and connected by thin edges. A muted ring behind each cluster slowly turns; selected category comes forward in scale and focus while its content is explained in HTML. When scroll reaches RL project, the skill nodes align into rows. A subset of nodes transforms into queued tasks. They move along 3 resource lanes, leaving elegant persistent trails. The 3D space becomes slightly more architectural, as if entering a computational workbench. The section heading arrives from below and pauses when the decision object is center-screen.
+
+As the user exits the scheduler, the task capsules converge into a single low-poly seed. The camera follows that seed through a gentle dolly; a soft metallic envelope appears. The object gains layers and becomes the GPU training pipeline. This scene receives the slowest, most precise camera choreography and highest geometric sophistication. On scroll each layer opens to reveal its process, illuminated one after another. Once fully exploded, a small orbit adjustment shows true depth and distinct geometry. Then the layers fold back together; the output traces become a vertical timeline rail used by the experience chapter.
+
+The experience rail traces from two genuine internship/training entries to an academic card. Visual density drops. Typography gains whitespace; shader effects retreat. The academic card unfolds as the camera pulls back. Finally, the vertical rail curves toward portrait C in the final contact scene. A quiet ring rotates into place and then stops, implying the story is complete. The viewer can click email or download resume without an animation attempting to steal the interaction.
+
+38. IMAGE INTERACTIONS: ETHICAL AND TECHNICAL REQUIREMENTS
+The cursor-follow portrait reference is stylized artwork in a video. Do not recreate eye-tracking on a real person. Instead implement a tracked 'data halo' that reacts gently to pointer position, or a small portrait frame parallax shift of 2–8px maximum; the human face remains physically unchanged. For hover-to-reveal, place a procedural network, a coded technical illustration, or a smooth-brushed aura behind Photo C on hover. Never generate a new face or upload personal photos to an unrelated third-party online API without explicit permission. All image processing should preferably be local or through approved platform image capabilities. Do not leak source assets to third-party CDNs during build.
+
+Use an effective motion boundary: pointer coordinates normalized [-1,1] and clamped; filter movement through damping; update only when interactive/pointer fine and reduced motion off; on pointer leave return softly to neutral. On mobile there is no hover—show the visual as an intentionally composed background and add a tap-to-reveal accessible alternative if the revealed information is essential. If the visual is decorative only, no extra control is required.
+
+39. RESPONSIVE STORYBOARD SPECIFICS
+Desktop 1440: header with sufficient breathing room; huge display name but maintain one reading focal point; hero portrait aligned right; neural sculpt mid-right. Section width around min(100%-48px, 1320px), project case-study columns responsive. Sticky/pinned scenes use clear textual safe-zone.
+Laptop 1280: typography still confident but not overflowing; use clamp and spacing; reduce the 3D object 10–15% if necessary. Header links should not collide.
+Tablet 768–1024: switch to two-stage composition as needed. A centered portrait and title may be stronger than an awkward 45/55 split. Prevent canvas blocking swipe; use shorter pinned intervals.
+Large phone 390–430: brand line wraps intentionally; photo retains face and shoulders; use normal page flow; put visual scene above the project title only where comprehension improves. Text should be readable at 16px+ body size. Reduce pinned sections or eliminate them; keep progressive reveals brief.
+Small phone 320–375: at most two action buttons stacked with sufficient gap; no clipped large display glyphs; no horizontal scrollbar; adapt spacing and heading sizes; collapse decorative labels. The experience timeline becomes vertical one-column. The GPU exploded view becomes a simple stacked diagram with stage selector if full WebGL becomes impractical.
+Short landscape 640x360: do not lock 100vh sections, allow scroll; controls remain reachable; no giant loader or modal that covers screen without escape.
+Ultrawide 2560x1080: use max-width for text and a wider camera framing with additional safe background space; do not stretch photos to fit screen. Dynamic aspect-based camera positions and object scales matter more than generic CSS scaling.
+
+40. MICRO-INTERACTION CATALOGUE
+Navigation: active section indicator updates as scroll position crosses chapter threshold; use aria-current appropriately. Mobile menu opens with clear focus, traps focus only if implemented as a true modal, closes on Escape, and restores focus.
+Buttons: tiny 2–4px lift/glow; focus outline; pointer click triggers immediate feedback; pressed state visually distinct.
+Link underlines: deliberate animated rule that starts from one point; reduced-motion instant alternative.
+Photo reveal: smooth clip geometry and slightly offset editorial frame; no bright flashing masks.
+Scroll cue: simple arrow or a hairline that gently pulses then stops after interaction.
+Skills: selected category highlights corresponding graph ring and updates text immediately; diagram movement is enhancement.
+Project stages: semantic active step, current label, connection line or route emphasis; reverse scroll reverses effects.
+Exploded view: actual component transform delta; selected layer receives a glancing highlight; 'View stage details' provides accessible non-canvas explanation.
+Contact copy: clipboard success shows 'Email copied' in an aria-live region, then can reset after an appropriate interaction—not an endless toast. Clipboard failure shows selectable address and a message explaining copy is unavailable.
+Resume: actual downloadable PDF, 'Download Resume (PDF)' accessible label. If missing, no broken blank file.
+Email/phone: real mailto/tel links with no artificial form success.
+Back-to-top: smooth anchor if allowed, instant if reduced motion; focus and hash state sensible.
+Link states: external links only when verified; no href='#' as a fake action.
+
+41. HOW TO EVALUATE VISUAL POLISH
+Use the following quality rubric to guide repeated revisions, without fabricating scores in the final report. Art direction (20%): original, consistent, purposeful composition, no template feel. 3D craft (20%): meaningful geometry, lighting, real depth, clean exploded mechanism. Interaction/motion (20%): seamless, stable scroll, quality camera choreography, thoughtful microinteractions. Content accuracy (15%): academic status and projects truthful, no invented credentials. Responsiveness/accessibility (15%): beautiful on phone, keyboard/reduced motion usable. Build/QA/Vercel readiness (10%): runnable, tested source, optimized images and deployment instructions. Improve the weakest dimension instead of adding yet another animation.
+
+Compare your final screenshots against the references on *quality of staging* rather than similarity. Good questions: Does the hero feel intentionally photographed and designed? Is the student's name immediately clear? Can I see real separation in the GPU object? Do the two projects look unmistakably different yet related? Do colors and camera flow connect sections? Does the closing scene feel earned? Does the experience make the visitor want to email her rather than merely admire graphics? Can a hiring manager read the page with effects disabled? If any answer is no, revise.
+
+42. DELIVERY REPORT TEMPLATE
+At the end of Work execution, provide:
+'Project ZIP: [verified link]'
+'Included assets: portrait A/B/C [names], latest resume [filename]'
+'Stack: Vue 3, Vite, TypeScript, Three.js, GSAP ScrollTrigger, Lenis'
+'Working sections: hero, about, skills, RL project, GPU pipeline, experience, education, contact'
+'Implemented standout interactions: ... [specific tested mechanics]'
+'Build verification: npm install [pass/fail], npm run build [pass/fail], tests [pass/fail/blocked]'
+'Preview QA: desktop [observed / unavailable], mobile [observed / unavailable]'
+'Unverified fields deliberately omitted: GitHub URL, LinkedIn URL, exact internship dates if not supplied'
+'Deploy: Vercel import steps in README'
+Do not invent test passes, package paths, tool artifacts, images, or screenshots. If a necessary asset or capability is unavailable, state that. Never say 'will send later'; finish within the current Workspace job if possible.
+
+43. RELEASE STOP CONDITIONS AND FALLBACK CHOICES
+If complex postprocessing causes poor frame rate, remove bloom first before removing the authored 3D object. If a third-party 3D model fetch fails, switch to authored procedural geometry rather than broken asset. If Lenis breaks anchor scrolling, disable it and use native scrolling. If a small phone cannot show the exploded 3D pipeline cleanly, switch to a beautiful HTML/SVG layered interpretation rather than tiny unreadable objects. If no background removal method works well, present portrait in an intentional editorial image panel. If no source code for the user's RL project is supplied, show a conceptual educational demonstration labelled accurately rather than a fake live model. If no GPU benchmarking data is supplied, show process stages without numerical charts. If an optional route makes Vercel routing fragile, ship a single-page portfolio with anchors. If asset metadata or quality is unclear, do not crop aggressively; use object-position and safe framing.
+
+Mandatory order when triaging bugs: (1) functional/build error, (2) data/credential accuracy and privacy, (3) browser runtime crash/scroll trap, (4) asset/display brokenness, (5) accessibility/mobile issue, (6) frame-rate, (7) visual refinements. Never leave the build broken to preserve a flourish.
+
+44. RESEARCH AND DOCUMENTATION LINKS (for source-grounded implementation)
+Reference site: https://wlt.design/
+Prior 2022 WLT site: https://2022.wlt.design/
+Independent WLT technical/visual gallery: https://mesh3d.gallery/website/wlt-design-web-design-studio
+WLT recognition/reference: https://www.cssdesignawards.com/sites/wlt-design/45101/
+Three.js home: https://threejs.org/
+Three.js responsive renderer guide: https://threejs.org/manual/pages/responsive.html
+GSAP ScrollTrigger: https://gsap.com/docs/v3/Plugins/ScrollTrigger/
+Lenis core documentation: https://github.com/darkroomengineering/lenis
+Lenis Vue integration: https://github.com/darkroomengineering/lenis/blob/main/packages/vue/README.md
+Vue docs: https://vuejs.org/
+Vite docs: https://vite.dev/
+Vercel for Vite: https://vercel.com/docs/frameworks/frontend/vite
+Web Vitals guidance: https://web.dev/articles/vitals
+Web accessibility guidance: https://www.w3.org/WAI/
+WebGL browser support guidance: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
+These resources are research and engineering reference points, not permission to copy copyrighted WLT designs or to claim exact library versions. Verify current documentation during implementation.
+
+
+45. DETAILED CROSS-DEVICE VISUAL ACCEPTANCE MATRIX
+The following are distinct manual visual checks. Inspect actual screenshots or simulated browser viewports, and use these checks as failure prompts, not as a reason to fabricate passed tests. Each check should be considered independently.
+V001 | 320 x 568 narrow mobile | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V002 | 320 x 568 narrow mobile | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V003 | 320 x 568 narrow mobile | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V004 | 320 x 568 narrow mobile | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V005 | 320 x 568 narrow mobile | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V006 | 320 x 568 narrow mobile | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V007 | 320 x 568 narrow mobile | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V008 | 320 x 568 narrow mobile | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: single-column layout, non-pinned simplified scenes, headings clamp to viewport width, 44px touch targets.
+V009 | 390 x 844 midrange mobile | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V010 | 390 x 844 midrange mobile | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V011 | 390 x 844 midrange mobile | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V012 | 390 x 844 midrange mobile | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V013 | 390 x 844 midrange mobile | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V014 | 390 x 844 midrange mobile | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V015 | 390 x 844 midrange mobile | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V016 | 390 x 844 midrange mobile | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: natural touch scrolling, no mouse-only affordances, carefully balanced mobile crop, reduced GPU workload.
+V017 | 430 x 932 large phone | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V018 | 430 x 932 large phone | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V019 | 430 x 932 large phone | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V020 | 430 x 932 large phone | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V021 | 430 x 932 large phone | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V022 | 430 x 932 large phone | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V023 | 430 x 932 large phone | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V024 | 430 x 932 large phone | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: comfortable portrait composition and buttons, no fake desktop layout compressed into a phone.
+V025 | 768 x 1024 portrait tablet | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V026 | 768 x 1024 portrait tablet | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V027 | 768 x 1024 portrait tablet | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V028 | 768 x 1024 portrait tablet | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V029 | 768 x 1024 portrait tablet | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V030 | 768 x 1024 portrait tablet | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V031 | 768 x 1024 portrait tablet | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V032 | 768 x 1024 portrait tablet | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: repositioned 3D objects and text safe zones, no excessive sticky-scroll gap.
+V033 | 1024 x 768 compact landscape | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V034 | 1024 x 768 compact landscape | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V035 | 1024 x 768 compact landscape | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V036 | 1024 x 768 compact landscape | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V037 | 1024 x 768 compact landscape | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V038 | 1024 x 768 compact landscape | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V039 | 1024 x 768 compact landscape | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V040 | 1024 x 768 compact landscape | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: short viewport handling, header remains reachable, no fixed art layer obscuring project copy.
+V041 | 1440 x 900 desktop | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V042 | 1440 x 900 desktop | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V043 | 1440 x 900 desktop | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V044 | 1440 x 900 desktop | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V045 | 1440 x 900 desktop | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V046 | 1440 x 900 desktop | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V047 | 1440 x 900 desktop | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V048 | 1440 x 900 desktop | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: editorial two-column alignment and cinematic geometry with clear labels and purposeful whitespace.
+V049 | 1920 x 1080 large desktop | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V050 | 1920 x 1080 large desktop | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V051 | 1920 x 1080 large desktop | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V052 | 1920 x 1080 large desktop | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V053 | 1920 x 1080 large desktop | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V054 | 1920 x 1080 large desktop | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V055 | 1920 x 1080 large desktop | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V056 | 1920 x 1080 large desktop | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: effective text max-width and balanced scene staging, no distracting unbounded camera movement.
+V057 | 2560 x 1080 ultrawide | Hero: Verify full name and class-of-2027 status remain legible; portrait face and primary CTA are visible; neural 3D never blocks reading; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+V058 | 2560 x 1080 ultrawide | About: Verify portrait B is meaningfully distinct; university, 8.88 CGPA, and expected graduation 2027 retain truthful labels and do not shift when loading; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+V059 | 2560 x 1080 ultrawide | Skills: Verify six authentic categories can all be read without hover; selected visual node and content match; no skill is misrepresented as mastery level; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+V060 | 2560 x 1080 ultrawide | RL scheduling: Verify PPO project copy remains readable; task lanes and policy signals are visibly different; demo label prevents mistaken benchmark claims; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+V061 | 2560 x 1080 ultrawide | GPU exploded pipeline: Verify separate geometry layers are visibly distinct or receive a high-quality fallback; all stage annotations remain legible and the object fits viewport; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+V062 | 2560 x 1080 ultrawide | Experience: Verify Salesforce CRM training duration is six months but employer is not invented; CHV Apps AI/ML role has no made-up dates; timeline is readable; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+V063 | 2560 x 1080 ultrawide | Education: Verify degree is marked expected rather than completed; institution and specialization wrap without overlapping decorative objects; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+V064 | 2560 x 1080 ultrawide | Contact: Verify portrait C is visible; real email and phone links work; missing social links do not appear; resume button responds according to actual attached PDF; environment expectation: no stretched images, safe readability and geometry framing even with unusual aspect ratio.
+
+46. CROSS-BROWSER INTERACTION VALIDATION
+B001 | Chromium desktop | intro and navigation: inspect header, hero and clickable controls; test WebGL context lifecycle and GPU effects; debug scroll, event cleanup and project interaction. Do not mark pass without a real browser test.
+B002 | Chromium desktop | scroll-driven projects: inspect scheduler and GPU exploded states; test WebGL context lifecycle and GPU effects; debug scroll, event cleanup and project interaction. Do not mark pass without a real browser test.
+B003 | Chromium desktop | accessibility: inspect keyboard/tab and reduced-motion modes; test WebGL context lifecycle and GPU effects; debug scroll, event cleanup and project interaction. Do not mark pass without a real browser test.
+B004 | Chromium desktop | portrait composition: inspect image cropping and visual layer compositing; test WebGL context lifecycle and GPU effects; debug scroll, event cleanup and project interaction. Do not mark pass without a real browser test.
+B005 | Chromium desktop | contact and downloads: inspect mailto, tel and real resume PDF; test WebGL context lifecycle and GPU effects; debug scroll, event cleanup and project interaction. Do not mark pass without a real browser test.
+B006 | Firefox desktop | intro and navigation: inspect header, hero and clickable controls; inspect transparency, font rendering, background blur, focus styles and scroll position restoration. Do not mark pass without a real browser test.
+B007 | Firefox desktop | scroll-driven projects: inspect scheduler and GPU exploded states; inspect transparency, font rendering, background blur, focus styles and scroll position restoration. Do not mark pass without a real browser test.
+B008 | Firefox desktop | accessibility: inspect keyboard/tab and reduced-motion modes; inspect transparency, font rendering, background blur, focus styles and scroll position restoration. Do not mark pass without a real browser test.
+B009 | Firefox desktop | portrait composition: inspect image cropping and visual layer compositing; inspect transparency, font rendering, background blur, focus styles and scroll position restoration. Do not mark pass without a real browser test.
+B010 | Firefox desktop | contact and downloads: inspect mailto, tel and real resume PDF; inspect transparency, font rendering, background blur, focus styles and scroll position restoration. Do not mark pass without a real browser test.
+B011 | Safari desktop | intro and navigation: inspect header, hero and clickable controls; inspect smooth scrolling behavior, fixed/sticky stacking and Three.js renderer compatibility. Do not mark pass without a real browser test.
+B012 | Safari desktop | scroll-driven projects: inspect scheduler and GPU exploded states; inspect smooth scrolling behavior, fixed/sticky stacking and Three.js renderer compatibility. Do not mark pass without a real browser test.
+B013 | Safari desktop | accessibility: inspect keyboard/tab and reduced-motion modes; inspect smooth scrolling behavior, fixed/sticky stacking and Three.js renderer compatibility. Do not mark pass without a real browser test.
+B014 | Safari desktop | portrait composition: inspect image cropping and visual layer compositing; inspect smooth scrolling behavior, fixed/sticky stacking and Three.js renderer compatibility. Do not mark pass without a real browser test.
+B015 | Safari desktop | contact and downloads: inspect mailto, tel and real resume PDF; inspect smooth scrolling behavior, fixed/sticky stacking and Three.js renderer compatibility. Do not mark pass without a real browser test.
+B016 | Chrome on Android | intro and navigation: inspect header, hero and clickable controls; test touch scrolling, long document performance, address-bar viewport resize and low-bandwidth loading. Do not mark pass without a real browser test.
+B017 | Chrome on Android | scroll-driven projects: inspect scheduler and GPU exploded states; test touch scrolling, long document performance, address-bar viewport resize and low-bandwidth loading. Do not mark pass without a real browser test.
+B018 | Chrome on Android | accessibility: inspect keyboard/tab and reduced-motion modes; test touch scrolling, long document performance, address-bar viewport resize and low-bandwidth loading. Do not mark pass without a real browser test.
+B019 | Chrome on Android | portrait composition: inspect image cropping and visual layer compositing; test touch scrolling, long document performance, address-bar viewport resize and low-bandwidth loading. Do not mark pass without a real browser test.
+B020 | Chrome on Android | contact and downloads: inspect mailto, tel and real resume PDF; test touch scrolling, long document performance, address-bar viewport resize and low-bandwidth loading. Do not mark pass without a real browser test.
+B021 | Safari on iPhone | intro and navigation: inspect header, hero and clickable controls; test scroll bouncing, viewport height changes, touch panels, safe area and no fixed element jitter. Do not mark pass without a real browser test.
+B022 | Safari on iPhone | scroll-driven projects: inspect scheduler and GPU exploded states; test scroll bouncing, viewport height changes, touch panels, safe area and no fixed element jitter. Do not mark pass without a real browser test.
+B023 | Safari on iPhone | accessibility: inspect keyboard/tab and reduced-motion modes; test scroll bouncing, viewport height changes, touch panels, safe area and no fixed element jitter. Do not mark pass without a real browser test.
+B024 | Safari on iPhone | portrait composition: inspect image cropping and visual layer compositing; test scroll bouncing, viewport height changes, touch panels, safe area and no fixed element jitter. Do not mark pass without a real browser test.
+B025 | Safari on iPhone | contact and downloads: inspect mailto, tel and real resume PDF; test scroll bouncing, viewport height changes, touch panels, safe area and no fixed element jitter. Do not mark pass without a real browser test.
+
+47. FUNCTIONAL AND ETHICAL ACCEPTANCE TESTS
+F001 | Open from top: The first visible HTML should already state the identity and usable navigation before a complex scene finishes booting.
+F002 | Enter after delayed photos: Image loading should not move headings or reposition anchored scroll targets unexpectedly.
+F003 | Click Projects header link: The first project becomes visible and the scroll-position-driven geometry reaches the corresponding state.
+F004 | Click Download Resume: The actual PDF file opens or downloads rather than returning a 404, empty file, or generic error.
+F005 | Activate Email: The mailto scheme uses the confirmed email exactly, with no guessed recruitment/contact address.
+F006 | Activate Phone: The tel scheme uses the normalized confirmed phone number.
+F007 | Copy email success: Clipboard returns an accurate accessible status and copied value equals the displayed address.
+F008 | Copy email blocked: The email remains selectable with an honest fallback message, not a fake success toast.
+F009 | Open and close mobile nav: Menu remains in viewport; aria-expanded changes; Escape closes; focus returns appropriately.
+F010 | Use keyboard-only navigation: All links, tabs, stage selectors, menu controls, and contact actions are accessible with visible focus.
+F011 | Focus project details: The detail control expands semantic text and does not require pointing at a canvas element.
+F012 | Select skill cluster: Visible skill list accurately reflects the chosen category; graphical node highlighting is secondary.
+F013 | Run scheduling demonstration: Any simulated results are labelled illustrative and do not imply live execution of a trained PPO model.
+F014 | Select GPU stage: The active textual stage matches highlighted layer and all captions are independently accessible.
+F015 | Scroll slowly through GPU sequence: Layers separate smoothly with no clipping, clipping-plane loss, or hidden final captions.
+F016 | Scroll rapidly through GPU sequence: State converges to correct location; there are no stuck highlights or indefinite animation overlap.
+F017 | Reverse scroll from GPU to RL: Camera, stage captions and object transforms rewind deterministically without exploding out of bounds.
+F018 | Jump to middle of page: The active scene is reconstructed correctly from current scroll progress; no prior animations need manual replay.
+F019 | Reload while on hash: The user lands at the intended section and the 3D layer does not remain in the hero state.
+F020 | Back and forward navigation: Browser history state behaves normally and content is never behind the wrong scene.
+F021 | Touch scroll over canvas: Document scrolling works unless an explicit and reversible 3D drag mode is activated.
+F022 | Hover photo reveal: Decorative halo or geometry changes gently without facial deformation or seizure-like flashing.
+F023 | Keyboard focus photo reveal: If essential information is revealed, equivalent focus activation and text content exist.
+F024 | Reduced-motion mode: Long camera rides and particle loops stop; content remains aesthetically complete and fully navigable.
+F025 | No WebGL support: A designed fallback still tells the full narrative with all sections, CTAs, and project explanations.
+F026 | WebGL context loss: The page does not crash or leave an opaque overlay; fallback and recovery are considered.
+F027 | Tab hidden and restored: Rendering pauses appropriately while hidden and resumes without time jumps or memory spikes.
+F028 | Window resize during pinned scene: ScrollTrigger recalculates and section spacers do not overlap or leave big blank holes.
+F029 | Font load after first paint: No dramatic layout shift or text disappearance; scroll trigger alignment is refreshed if needed.
+F030 | Image decode error: Intentional fallback frame and alt content prevent layout collapse.
+F031 | Zoom browser to 200%: Body text, form controls and menu remain accessible without large horizontal scroll.
+F032 | Disable animations by OS preference: Decorative canvas does not continue endless movement against user preference.
+F033 | Click external link when configured: Verified URL opens safely and no fake social profile destination is used.
+F034 | Use site without mouse: Projects and experience are readable, not gated behind 3D orbit or cursor hover.
+F035 | Network offline after load: Core content remains visible where assets already loaded, without broken infinite loaders.
+F036 | Navigate with a screen reader: Canvas is non-semantic decoration; headings, links, alt text and stage explanations tell the same factual story.
+F037 | Scrub while phone rotates: Active section stays readable and renderer camera updates with a stable aspect ratio.
+F038 | Open narrow viewport with large font: Project titles and school name wrap cleanly; no essential details are clipped.
+F039 | Inspect build output: No local WhatsApp filenames, source-path references, empty placeholders, or leaked private EXIF are embedded.
+F040 | Inspect Vercel deploy preview: Static file paths, resume PDF and page entry point resolve; refresh works for any chosen route mode.
+F041 | Audit project copy: No invented salary, rankings, employers, GitHub repos, performance percentages, and internship dates appear.
+F042 | Inspect photo usage: Exactly three separate user portraits are meaningfully displayed and none are replaced by an unrelated generated identity.
+F043 | Inspect initial scroll position: A visible scroll cue communicates exploration without blocking the main CTA or forcing wait.
+F044 | Inspect footer: Back-to-top and contact are live; there is no placeholder button and no duplicated fake call to action.
+
+48. PERFORMANCE AND BUILD ACCEPTANCE TESTS
+P001 | Warm first load: Measure approximate first content paint and meaningful hero; avoid a blocking 3D loader.
+P002 | Cold first load: Network request waterfall does not download every 3D asset and all portrait originals eagerly.
+P003 | LCP target: Evaluate 2.5-second goal on representative configuration; report measured data or say not measured.
+P004 | INP target: Evaluate 200ms responsiveness goal; check no long JS task from geometry or scroll updates.
+P005 | CLS target: Evaluate 0.1 layout-shift goal; explicit photo aspect ratios and stable header heights are required.
+P006 | Renderer pixel ratio: Cap DPR adaptively rather than always using native 3x/4x phone pixel ratio.
+P007 | Draw-call complexity: Use instancing and shared materials where appropriate; profile real counts if tooling exists.
+P008 | GPU memory growth: Repeated route/mount scenarios should not leak buffers, textures and shader programs.
+P009 | CPU time while idle: Use throttling or limited subtle motion rather than dozens of infinite expensive loops.
+P010 | Tab background work: Stop or substantially pause update frames when hidden.
+P011 | Below-fold assets: Avoid loading full-resolution images or entire complex scenes before needed.
+P012 | Text availability: Do not delay H1 and navigation until fonts, WebGL and GSAP fully finish booting.
+P013 | Long-task audit: Inspect scripting spikes during first scroll through scheduler and GPU assembly.
+P014 | Large scroll jumps: No cascaded costly timeline replays or repeated resource reconstruction.
+P015 | Mobile energy: Reduce continuous motion and unnecessary postprocessing in normal mobile quality tier.
+P016 | Bundle inspection: Report initial bundle size and noteworthy chunks instead of guessing optimization.
+P017 | Asset formats: Use right-sized WebP/JPEG/AVIF only when supported, with accessible and safe fallbacks.
+P018 | Error boundary: An exception in 3D should not remove the Vue page or contact section.
+P019 | WebGL unavailability: A fallback composition should remain visually polished, not a blank black rectangle.
+P020 | Performance transparency: Do not claim tested FPS, Lighthouse score or achieved thresholds without measurement.
+
+49. FINAL HUMAN REVIEW BEFORE SHIPPING
+The site should leave three very clear impressions. First, this is a real student with verified experiences and named projects, not a fictional or inflated résumé. Second, the design can stand beside ambitious WebGL references as a cohesive narrative with original visual language, not a clone and not generic AI art. Third, the project can actually run on Vercel and be maintained by a developer without reverse-engineering an unstable animation experiment. Verify the PDF link, accessible project copy, all three portraits, scroll and desktop/mobile layout, build, ZIP, and README one last time. Preserve the owner's dignity by prioritizing their authentic work and image quality over stunts. End of execution prompt.
