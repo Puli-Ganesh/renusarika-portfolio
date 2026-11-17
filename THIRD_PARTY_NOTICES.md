@@ -1,17 +1,8 @@
 # Third-party notices
 
-The original project source and procedural scene designs are supplied for the requested portfolio. Uploaded photographs and the resume retain their respective ownership; no blanket license is assigned to those assets.
+- Vue 3, Vite, and their runtime dependencies retain their respective open-source licenses in their npm packages.
+- Three.js is MIT licensed. Its runtime and RoundedBoxGeometry helper are used for the training workflow exhibit; package license text is retained in `docs/licenses/THREE_LICENSE.txt`.
+- Manrope is distributed under the SIL Open Font License 1.1. The font is hosted locally; its license is in `public/fonts/MANROPE_LICENSE.txt`.
+- Photographs and the résumé were supplied by the user for this portfolio. No ownership or additional reuse rights are claimed.
 
-| Dependency / asset | Version used | License information |
-| --- | --- | --- |
-| Vue | 3.5.45 | MIT; copy in docs/licenses/vue-LICENSE.txt |
-| Three.js | 0.187.0 | MIT; copy in docs/licenses/three-LICENSE.txt |
-| Lenis | 1.3.27 | MIT; copy in docs/licenses/lenis-LICENSE.txt |
-| GSAP / ScrollTrigger | 3.15.1 | Package identifies GSAP's standard no-charge license: https://gsap.com/standard-license |
-| Vite | 8.3.8 | MIT and bundled notices; copy in docs/licenses/vite-LICENSE.md |
-| Manrope font | Fontsource variable package 5.3.0 | SIL Open Font License; public/fonts/MANROPE_LICENSE.txt |
-| Space Grotesk font | Fontsource variable package 5.3.0 | SIL Open Font License; public/fonts/SPACE_GROTESK_LICENSE.txt |
-
-The package-lock.json records the exact toolchain and transitive dependencies. Their own package notices apply when installed. Preserve license comments and these notices when redistributing the production bundle. Consult the linked GSAP license for its terms; this project does not relabel GSAP as MIT.
-
-No WLT code, 3D models, branding, or photographs were copied. WLT was a high-level creative reference. No generated substitute portrait or external stock model is used.
+The routing illustration, SVG fallback, and mesh arrangement were created for this project. No external image CDN, analytics, advertising, remote font, or contact-form service is used.

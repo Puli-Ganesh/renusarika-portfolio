@@ -1,0 +1,29 @@
+[
+  {
+    "role": "hero",
+    "original": "WhatsApp Image 2026-11-17 at 10.14.27 AM(1).jpeg",
+    "original_dimensions": [
+      816,
+      1074
+    ],
+    "sha256": "560f33f89e5ae350bec171f0c6c6d1f9611013355bb1224f8541ffcacf2e03c3"
+  },
+  {
+    "role": "about",
+    "original": "WhatsApp Image 2026-11-17 at 1g0.14.27 AM(1).jpeg",
+    "original_dimensions": [
+      721,
+      1280
+    ],
+    "sha256": "539f040f6103f530dd661e028a8462f423843c526adc0cd605e641c7f063ca3a"
+  },
+  {
+    "role": "contact",
+    "original": "WhatsApp Image 2026-11-17 at 10.16.2dgdnjhgbn9 AM(1).jpeg",
+    "original_dimensions": [
+      720,
+      1280
+    ],
+    "sha256": "ce3ea159d33ee630b9f65443d79d3fff8eccbbea79e4689b53d525d4b50030ba"
+  }
+]
